@@ -1,0 +1,182 @@
+~V|CYPE INGENIEROS, S.A.|FIEBDC-3/2004|ARQUIMEDES||ANSI|Banco de precios|1|
+~K|-9\3\3\3\2\3\2\2\EUR\||\2\\\3\\2\2\3\-9\3\3\EUR\||
+~C|PRECIOS_IDDERO_2021_01##||PRECIOS IDDERO 2021.01|0|120820|0|
+~D|PRECIOS_IDDERO_2021_01##
+|PTVER#\\0
+\PTHCX#\\0
+\HSER#\\0
+\EXP#\\0
+\SYS#\\0
+\VAR#\\0
+\|
+~C|DW-GSM|ud|Módulo de expansión GSM|250|120820|3|
+~T|DW-GSM|Módulo de expansión GSM para pantallas táctiles Iddero HC3 / HC3L e Iddero Home Server. Control remoto a la instalación desde teléfono móvil mediante mensajes SMS o llamadas perdidas. Notificaciones de alarmas y eventos por SMS. Montaje en carril DIN.|
+~C|DW-SER1-KNX|ud|Servidor compacto para control de la instalación desde smartphones y tablets|640|120820|3|
+~T|DW-SER1-KNX|Servidor compacto para el control y monitorización de instalaciones KNX desde smartphones y tablets, o desde cualquier dispositivo equipado con un navegador web. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 8 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Montaje en carril DIN. Incluye fuente de alimentación para carril DIN.|
+~C|DW-TS-N1PB|ud|Sonda de temperatura tipo NTC|20|120820|3|
+~T|DW-TS-N1PB|Sonda de temperatura tipo NTC con cable de 1,5m para pantallas táctiles Iddero HC3 / HC3L, Iddero Verso / VERSO+IP e Iddero Home Server.|
+~C|DW-VERIP-B|ud|Pantalla táctil Iddero VERSO+IP 4,3" con conexión IP, color NEGRO|495|120820|3|
+~T|DW-VERIP-B|Pantalla táctil capacitiva Iddero VERSO+IP con display TFT de 4,3" y conexión IP. Hasta 48 funciones de control organizadas en 6 páginas configurables + página de "favoritos" editable por el usuario final. Imágenes de fondo configurables en todas las páginas. Gestos táctiles. Programaciones horarias, escenas, alarmas, 2 termostatos independientes, 4 entradas multifunción. Sensor de temperatura integrado. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Control remoto desde smartphones y tablets. Permite montaje vertical u horizontal. Instalación en caja de mecanismos estándar, o bien montaje enrasado con accesorio opcional E-F401. Color: NEGRO|
+~C|DW-VERIP-W|ud|Pantalla táctil Iddero VERSO+IP 4,3" con conexión IP, color BLANCO|495|120820|3|
+~T|DW-VERIP-W|Pantalla táctil capacitiva Iddero VERSO+IP con display TFT de 4,3" y conexión IP. Hasta 48 funciones de control organizadas en 6 páginas configurables + página de "favoritos" editable por el usuario final. Imágenes de fondo configurables en todas las páginas. Gestos táctiles. Programaciones horarias, escenas, alarmas, 2 termostatos independientes, 4 entradas multifunción. Sensor de temperatura integrado. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Control remoto desde smartphones y tablets. Permite montaje vertical u horizontal. Instalación en caja de mecanismos estándar, o bien montaje enrasado con accesorio opcional E-F401. Color: BLANCO|
+~C|DW-VERSO-B|ud|Pantalla táctil Iddero Verso 4,3", color NEGRO|330|120820|3|
+~T|DW-VERSO-B|Pantalla táctil capacitiva Iddero Verso con display TFT de 4,3". Hasta 48 funciones de control organizadas en 6 páginas configurables + página de "favoritos" editable por el usuario final. Imágenes de fondo configurables en todas las páginas. Gestos táctiles. Programaciones horarias, escenas, alarmas, 2 termostatos independientes, 4 entradas multifunción. Sensor de temperatura integrado. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Permite montaje vertical u horizontal. Instalación en caja de mecanismos estándar, o bien montaje enrasado con accesorio opcional E-F401. Color: NEGRO|
+~C|DW-VERSO-W|ud|Pantalla táctil Iddero Verso 4,3", color BLANCO|330|120820|3|
+~T|DW-VERSO-W|Pantalla táctil capacitiva Iddero Verso con display TFT de 4,3". Hasta 48 funciones de control organizadas en 6 páginas configurables + página de "favoritos" editable por el usuario final. Imágenes de fondo configurables en todas las páginas. Gestos táctiles. Programaciones horarias, escenas, alarmas, 2 termostatos independientes, 4 entradas multifunción. Sensor de temperatura integrado. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Permite montaje vertical u horizontal. Instalación en caja de mecanismos estándar, o bien montaje enrasado con accesorio opcional E-F401. Color: BLANCO|
+~C|E-C456|ud|Caja de mecanismos universal para instalación de Iddero Verso y VERSO+IP en paredes de cartón-yeso|5|120820|3|
+~T|E-C456|Caja de mecanismos universal para instalación de Iddero Verso y VERSO+IP en paredes de tabique hueco (cartón-yeso o equivalente). Diámetro 68 mm, fondo 46 mm.|
+~C|E-C466|ud|Caja de mecanismos universal para instalación de Iddero Verso y VERSO+IP|3|120820|3|
+~T|E-C466|Caja de mecanismos universal para instalación de Iddero Verso y VERSO+IP. Dimensiones: 65 x 65 x 40 mm (largo x alto x fondo).|
+~C|E-C557|ud|Caja de empotrar para instalación de Iddero HC3-KNX|10|120820|3|
+~T|E-C557|Caja de empotrar para instalación de Iddero HC3-KNX. Dimensiones: 200 x 130 x 60 mm (largo x alto x fondo).|
+~C|E-C620|ud|Caja de empotrar para instalación de Iddero HC3L-KNX|25|120820|3|
+~T|E-C620|Caja de empotrar para instalación de Iddero HC3L-KNX. Dimensiones: 275 x 186 x 56 mm (largo x alto x fondo).|
+~C|E-F401|ud|Adaptador para montaje enrasado de Iddero Verso y VERSO+IP|49|120820|3|
+~T|E-F401|Adaptador para montaje enrasado de Iddero Verso y VERSO+IP en paredes de tabique hueco (cartón-yeso o equivalente).|
+~C|E-KUSB1|ud|Cable de programación USB para Iddero Verso y VERSO+IP|8|120820|3|
+~T|E-KUSB1|Cable de programación USB para Iddero Verso y VERSO+IP|
+~C|E-KVERJ45|ud|Adaptador RJ45 para Iddero VERSO+IP|12|120820|3|
+~T|E-KVERJ45|Adaptador RJ45 para Iddero VERSO+IP|
+~C|E-PSU1512|ud|Fuente de alimentación 12 VDC / 1 A para carril DIN|38|120820|3|
+~T|E-PSU1512|Fuente de alimentación 12 VDC / 1 A (12 W) para carril DIN|
+~C|E-PSU3012|ud|Fuente de alimentación 12 VDC / 2 A para carril DIN|48|120820|3|
+~T|E-PSU3012|Fuente de alimentación 12 VDC / 2 A (24 W) para carril DIN|
+~C|EXP#||EXPANSIÓN|0|180820|0|
+~T|EXP#|EXPANSIÓN|
+~D|EXP#
+|EXPGSM#\\0
+\EXPTS#\\0
+\|
+~C|EXPGSM#||MÓDULO DE EXPANSIÓN GSM|0|180820|0|
+~T|EXPGSM#|SONDAS DE TEMPERATURA|
+~D|EXPGSM#
+|DW-GSM\\0
+\|
+~C|EXPTS#||SONDAS DE TEMPERATURA|0|180820|0|
+~T|EXPTS#|SONDAS DE TEMPERATURA|
+~D|EXPTS#
+|DW-TS-N1PB\\0
+\|
+~C|HC3-KNX-CB|ud|Pantalla táctil HC3-KNX 7" con conexión IP y función videoportero, acabado CLASSIC NEGRO|995|120820|3|
+~T|HC3-KNX-CB|Pantalla táctil capacitiva HC3-KNX con display TFT de 7", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C557. Incluye fuente de alimentación para carril DIN. Acabado: CLASSIC NEGRO|
+~C|HC3-KNX-CG|ud|Pantalla táctil HC3-KNX 7" con conexión IP y función videoportero, acabado CLASSIC GRIS|995|120820|3|
+~T|HC3-KNX-CG|Pantalla táctil capacitiva HC3-KNX con display TFT de 7", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C557. Incluye fuente de alimentación para carril DIN. Acabado: CLASSIC GRIS|
+~C|HC3-KNX-CW|ud|Pantalla táctil HC3-KNX 7" con conexión IP y función videoportero, acabado CLASSIC BLANCO|995|120820|3|
+~T|HC3-KNX-CW|Pantalla táctil capacitiva HC3-KNX con display TFT de 7", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C557. Incluye fuente de alimentación para carril DIN. Acabado: CLASSIC BLANCO|
+~C|HC3-KNX-GB|ud|Pantalla táctil HC3-KNX 7" con conexión IP y función videoportero, acabado GLASS NEGRO|1150|120820|3|
+~T|HC3-KNX-GB|Pantalla táctil capacitiva HC3-KNX con display TFT de 7", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C557. Incluye fuente de alimentación para carril DIN. Acabado: GLASS NEGRO|
+~C|HC3-KNX-GW|ud|Pantalla táctil HC3-KNX 7" con conexión IP y función videoportero, acabado GLASS BLANCO|1150|120820|3|
+~T|HC3-KNX-GW|Pantalla táctil capacitiva HC3-KNX con display TFT de 7", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C557. Incluye fuente de alimentación para carril DIN. Acabado: GLASS BLANCO|
+~C|HC3L-KNX-CB|ud|Pantalla táctil HC3L-KNX 10,1" con conexión IP y función videoportero, acabado CLASSIC NEGRO|1600|120820|3|
+~T|HC3L-KNX-CB|Pantalla táctil capacitiva HC3L-KNX con display IPS de 10,1", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C620. Incluye fuente de alimentación para carril DIN. Acabado: CLASSIC NEGRO|
+~C|HC3L-KNX-CG|ud|Pantalla táctil HC3L-KNX 10,1" con conexión IP y función videoportero, acabado CLASSIC GRIS|1600|120820|3|
+~T|HC3L-KNX-CG|Pantalla táctil capacitiva HC3L-KNX con display IPS de 10,1", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C620. Incluye fuente de alimentación para carril DIN. Acabado: CLASSIC GRIS|
+~C|HC3L-KNX-CW|ud|Pantalla táctil HC3L-KNX 10,1" con conexión IP y función videoportero, acabado CLASSIC BLANCO|1600|120820|3|
+~T|HC3L-KNX-CW|Pantalla táctil capacitiva HC3L-KNX con display IPS de 10,1", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C620. Incluye fuente de alimentación para carril DIN. Acabado: CLASSIC BLANCO|
+~C|HC3L-KNX-GB|ud|Pantalla táctil HC3L-KNX 10,1" con conexión IP y función videoportero, acabado GLASS NEGRO|1800|120820|3|
+~T|HC3L-KNX-GB|Pantalla táctil capacitiva HC3L-KNX con display IPS de 10,1", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C620. Incluye fuente de alimentación para carril DIN. Acabado: GLASS NEGRO|
+~C|HC3L-KNX-GW|ud|Pantalla táctil HC3L-KNX 10,1" con conexión IP y función videoportero, acabado GLASS BLANCO|1800|120820|3|
+~T|HC3L-KNX-GW|Pantalla táctil capacitiva HC3L-KNX con display IPS de 10,1", conexión IP y función videoportero. Navegación gráfica a través de planos. Hasta 512 páginas de control configurables (más de 4000 funciones). Programaciones horarias, escenas editables por el usuario final, alarmas, simulación de presencia, notificaciones, funciones lógicas, 4 termostatos independientes, 4 entradas multifunción. Reloj (RTC) con batería. Conexión directa al bus KNX (TP1). Función videoportero compatible con los principales videoporteros SIP del mercado. Altavoces estéreo y micrófono digital integrados. Visualización de cámaras IP en pantalla. Control remoto desde smartphones y tablets. Requiere caja de empotrar E-C620. Incluye fuente de alimentación para carril DIN. Acabado: GLASS BLANCO|
+~C|HSER#||HOME SERVERS|0|180820|0|
+~T|HSER#|HOME SERVERS|
+~D|HSER#
+|HSER1#\\0
+\|
+~C|HSER1#||IDDERO HOME SERVER|0|200820|0|
+~T|HSER1#|IDDERO HOME SERVER|
+~D|HSER1#
+|DW-SER1-KNX\\0
+\|
+~C|KIT-VER2-B|ud|Kit de demostración Iddero Verso NEGRO|550|120820|3|
+~T|KIT-VER2-B|Kit de demostración de Iddero Verso. Incluye pantalla táctil Iddero Verso en color NEGRO, fuente de alimentación KNX PS-K640 (640 mA, con salida de alimentación auxiliar), soporte de sobremesa y maletín.|
+~C|KIT-VER2-W|ud|Kit de demostración Iddero Verso BLANCO|550|120820|3|
+~T|KIT-VER2-W|Kit de demostración de Iddero Verso. Incluye pantalla táctil Iddero Verso en color BLANCO, fuente de alimentación KNX PS-K640 (640 mA, con salida de alimentación auxiliar), soporte de sobremesa y maletín.|
+~C|PS-K640|ud|Fuente de alimentación KNX de 640 mA con salida auxiliar de 30 VDC|175|120820|3|
+~T|PS-K640|Fuente de alimentación KNX ultra-compacta de 640 mA con salida auxiliar de 30 VDC. Incorpora LEDs de estado y pulsador RESET. Montaje en carril DIN.|
+~C|PTHC3#||HC3|0|180820|0|
+~T|PTHC3#|HC3|
+~D|PTHC3#
+|HC3-KNX-GW\\0
+\HC3-KNX-GB\\0
+\HC3-KNX-CW\\0
+\HC3-KNX-CB\\0
+\HC3-KNX-CG\\0
+\|
+~C|PTHC3L#||HC3L|0|180820|0|
+~T|PTHC3L#|HC3L|
+~D|PTHC3L#
+|HC3L-KNX-GW\\0
+\HC3L-KNX-GB\\0
+\HC3L-KNX-CW\\0
+\HC3L-KNX-CB\\0
+\HC3L-KNX-CG\\0
+\|
+~C|PTHCX#||PANTALLAS TÁCTILES IDDERO HC3 / HC3L|0|180820|0|
+~T|PTHCX#|PANTALLAS TÁCTILES IDDERO HC3 / HC3L|
+~D|PTHCX#
+|PTHC3#\\0
+\PTHC3L#\\0
+\PTHCXACC#\\0
+\|
+~C|PTHCXACC#||ACCESORIOS|0|180820|0|
+~T|PTHCXACC#|ACCESORIOS|
+~D|PTHCXACC#
+|E-C557\\0
+\E-C620\\0
+\|
+~C|PTVER#||PANTALLAS TÁCTILES IDDERO VERSO|0|180820|0|
+~T|PTVER#|PANTALLAS TÁCTILES IDDERO VERSO|
+~D|PTVER#
+|PTVERSO#\\0
+\PTVERIP#\\0
+\PTVERKIT#\\0
+\PTVERACC#\\0
+\|
+~C|PTVERACC#||ACCESORIOS|0|180820|0|
+~T|PTVERACC#|ACCESORIOS|
+~D|PTVERACC#
+|E-C466\\0
+\E-C456\\0
+\E-F401\\0
+\E-KUSB1\\0
+\E-KVERJ45\\0
+\|
+~C|PTVERIP#||IDDERO VERSO+IP|0|180820|0|
+~T|PTVERIP#|IDDERO VERSO+IP|
+~D|PTVERIP#
+|DW-VERIP-W\\0
+\DW-VERIP-B\\0
+\|
+~C|PTVERKIT#||KITS|0|180820|0|
+~T|PTVERKIT#|KITS|
+~D|PTVERKIT#
+|KIT-VER2-W\\0
+\KIT-VER2-B\\0
+\|
+~C|PTVERSO#||IDDERO VERSO|0|180820|0|
+~T|PTVERSO#|IDDERO VERSO|
+~D|PTVERSO#
+|DW-VERSO-W\\0
+\DW-VERSO-B\\0
+\|
+~C|SYS#||SISTEMA|0|180820|0|
+~T|SYS#|SISTEMA|
+~D|SYS#
+|SYSPS#\\0
+\|
+~C|SYSPS#||FUENTES ALIMENTACIÓN KNX|0|180820|0|
+~T|SYSPS#|FUENTES ALIMENTACIÓN KNX|
+~D|SYSPS#
+|PS-K640\\0
+\|
+~C|VAR#||VARIOS|0|180820|0|
+~T|VAR#|ACCESORIOS|
+~D|VAR#
+|VARPS#\\0
+\|
+~C|VARPS#||FUENTES DE ALIMENTACIÓN CONVENCIONALES|0|180820|0|
+~T|VARPS#|FUENTES DE ALIMENTACIÓN CONVENCIONALES|
+~D|VARPS#
+|E-PSU1512\\0
+\E-PSU3012\\0
+\|
