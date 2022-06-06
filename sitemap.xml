@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.iddero.com/es/products/software</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/products/ser1-knx</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/products/ser1-knx</loc>
-  </url>
-  <url>
     <loc>https://www.iddero.com/en/products/verso</loc>
   </url>
   <url>
@@ -106,6 +97,15 @@
     <loc>https://www.iddero.com/es/about</loc>
   </url>
   <url>
+    <loc>https://www.iddero.com/oss/oss-notice-ser1</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/oss/oss-notice-hc3_hc3l</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/oss/oss-notice-verso</loc>
+  </url>
+  <url>
     <loc>https://www.iddero.com/en/</loc>
   </url>
   <url>
@@ -154,6 +154,12 @@
     <loc>https://www.iddero.com/es/products/dw-ts-n1p</loc>
   </url>
   <url>
+    <loc>https://www.iddero.com/en/products/ps-k640v2</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/ps-k640v2</loc>
+  </url>
+  <url>
     <loc>https://www.iddero.com/en/products/ps-k640</loc>
   </url>
   <url>
@@ -161,5 +167,14 @@
   </url>
   <url>
     <loc>https://www.iddero.com/en/products/software</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/software</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/ser1-knx</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/ser1-knx</loc>
   </url>
 </urlset>

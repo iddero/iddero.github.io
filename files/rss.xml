@@ -6,6 +6,42 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>PS-K640v2_Datasheet_en.pdf</title>
+		<link>http://www.iddero.com/files/PS-K640v2_Datasheet_en.pdf</link>
+		<guid isPermaLink="false">bb158df5abbe9a044dc10800d9554cd189103bef19c04986df40c8290e316e44</guid>
+		<pubDate>Tue, 21 Jun 2022 17:17:07 +0100</pubDate>
+	</item>
+	<item>
+		<title>PS-K640v2_Datasheet_es.pdf</title>
+		<link>http://www.iddero.com/files/PS-K640v2_Datasheet_es.pdf</link>
+		<guid isPermaLink="false">26bfd24f7e6ab92619ff1019e406e56bba6f628520caf35c5e2d006d6798612e</guid>
+		<pubDate>Tue, 21 Jun 2022 17:17:07 +0100</pubDate>
+	</item>
+	<item>
+		<title>Dossier_HC3_HC3L_Jun2022_en.pdf</title>
+		<link>http://www.iddero.com/files/Dossier_HC3_HC3L_Jun2022_en.pdf</link>
+		<guid isPermaLink="false">2325eb34c8a111f6c2116a8967f454d74fff33c22974ba1117dfb5f975891305</guid>
+		<pubDate>Tue, 21 Jun 2022 08:51:20 +0100</pubDate>
+	</item>
+	<item>
+		<title>Dossier_HC3_HC3L_Jun2022_es.pdf</title>
+		<link>http://www.iddero.com/files/Dossier_HC3_HC3L_Jun2022_es.pdf</link>
+		<guid isPermaLink="false">73c38187be3b8107ba9b2f591dc7b3ffa9a4dc338013c1299c2c53aa72e03de6</guid>
+		<pubDate>Tue, 21 Jun 2022 08:51:20 +0100</pubDate>
+	</item>
+	<item>
+		<title>Dossier_VERSO_Jun2022_en.pdf</title>
+		<link>http://www.iddero.com/files/Dossier_VERSO_Jun2022_en.pdf</link>
+		<guid isPermaLink="false">33406c877b9308671f74b20b4aa705081e935ed5feba8156e8bc384c9ff8b556</guid>
+		<pubDate>Tue, 21 Jun 2022 08:51:20 +0100</pubDate>
+	</item>
+	<item>
+		<title>Dossier_VERSO_Jun2022_es.pdf</title>
+		<link>http://www.iddero.com/files/Dossier_VERSO_Jun2022_es.pdf</link>
+		<guid isPermaLink="false">47c407e123c766b566c9e191d4bebf71e166a015f0d86baf37f6f8f42801ac12</guid>
+		<pubDate>Tue, 21 Jun 2022 08:51:20 +0100</pubDate>
+	</item>
+	<item>
 		<title>Dossier_HC3_HC3L_May2022_en.pdf</title>
 		<link>http://www.iddero.com/files/Dossier_HC3_HC3L_May2022_en.pdf</link>
 		<guid isPermaLink="false">c677eadc866537c160c5e5197f120bf860bcdcc02abb949c80b17b8ad53a48c1</guid>
