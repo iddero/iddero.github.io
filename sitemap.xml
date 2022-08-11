@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.iddero.com/en/products/verso</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/products/verso</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references</loc>
-  </url>
-  <url>
     <loc>https://www.iddero.com/es/references</loc>
   </url>
   <url>
@@ -133,6 +124,12 @@
     <loc>https://www.iddero.com/es/products/hc3l-knx</loc>
   </url>
   <url>
+    <loc>https://www.iddero.com/en/products/verso-indoor</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/verso-indoor</loc>
+  </url>
+  <url>
     <loc>https://www.iddero.com/en/products/verso-ip</loc>
   </url>
   <url>
@@ -167,5 +164,14 @@
   </url>
   <url>
     <loc>https://www.iddero.com/es/products/ser1-knx</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/verso</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/verso</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references</loc>
   </url>
 </urlset>
