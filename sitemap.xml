@@ -1,91 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.iddero.com/es/references</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/products</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/products</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/porcelanosa</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/porcelanosa</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/terracos</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/terracos</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/benares</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/benares</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/residencial-velazquez</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/residencial-velazquez</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/villas-do-parque</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/villas-do-parque</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/eolos</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/eolos</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/atlantico-estoril</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/atlantico-estoril</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/ppe-vergara</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/ppe-vergara</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/references/teatro-calderon</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/references/teatro-calderon</loc>
-  </url>
-  <url>
     <loc>https://www.iddero.com/en/newsletter</loc>
   </url>
   <url>
     <loc>https://www.iddero.com/es/newsletter</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/contact</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/contact</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/download</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/download</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/about</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/about</loc>
   </url>
   <url>
     <loc>https://www.iddero.com/en/</loc>
@@ -94,34 +13,22 @@
     <loc>https://www.iddero.com/es/</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/products/hc3-knx</loc>
+    <loc>https://www.iddero.com/en/references</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/es/products/hc3-knx</loc>
+    <loc>https://www.iddero.com/es/references</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/products/idderocloud</loc>
+    <loc>https://www.iddero.com/en/contact</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/es/products/idderocloud</loc>
+    <loc>https://www.iddero.com/es/contact</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/products/dw-gsm</loc>
+    <loc>https://www.iddero.com/en/products</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/es/products/dw-gsm</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/products/e-f401</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/products/e-f401</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/en/products/hc3l-knx</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/products/hc3l-knx</loc>
+    <loc>https://www.iddero.com/es/products</loc>
   </url>
   <url>
     <loc>https://www.iddero.com/en/products/verso-indoor</loc>
@@ -130,22 +37,16 @@
     <loc>https://www.iddero.com/es/products/verso-indoor</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/products/verso-ip</loc>
-  </url>
-  <url>
-    <loc>https://www.iddero.com/es/products/verso-ip</loc>
-  </url>
-  <url>
     <loc>https://www.iddero.com/en/products/dw-ts-n1p</loc>
   </url>
   <url>
     <loc>https://www.iddero.com/es/products/dw-ts-n1p</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/products/ps-k640v2</loc>
+    <loc>https://www.iddero.com/en/products/dw-gsm</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/es/products/ps-k640v2</loc>
+    <loc>https://www.iddero.com/es/products/dw-gsm</loc>
   </url>
   <url>
     <loc>https://www.iddero.com/en/products/ps-k640</loc>
@@ -154,10 +55,10 @@
     <loc>https://www.iddero.com/es/products/ps-k640</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/products/software</loc>
+    <loc>https://www.iddero.com/en/products/ps-k640v2</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/es/products/software</loc>
+    <loc>https://www.iddero.com/es/products/ps-k640v2</loc>
   </url>
   <url>
     <loc>https://www.iddero.com/en/products/ser1-knx</loc>
@@ -172,6 +73,105 @@
     <loc>https://www.iddero.com/es/products/verso</loc>
   </url>
   <url>
-    <loc>https://www.iddero.com/en/references</loc>
+    <loc>https://www.iddero.com/en/products/verso-ip</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/verso-ip</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/hc3-knx</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/hc3-knx</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/e-f401</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/e-f401</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/software</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/software</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/hc3l-knx</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/hc3l-knx</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/products/idderocloud</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/products/idderocloud</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/about</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/about</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/porcelanosa</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/porcelanosa</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/atlantico-estoril</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/atlantico-estoril</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/villas-do-parque</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/villas-do-parque</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/teatro-calderon</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/teatro-calderon</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/residencial-velazquez</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/residencial-velazquez</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/terracos</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/terracos</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/benares</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/benares</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/ppe-vergara</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/ppe-vergara</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/references/eolos</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/references/eolos</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/en/download</loc>
+  </url>
+  <url>
+    <loc>https://www.iddero.com/es/download</loc>
   </url>
 </urlset>

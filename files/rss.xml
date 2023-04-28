@@ -6,6 +6,42 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>VERSO_INDOOR_Datasheet_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_INDOOR_Datasheet_en.pdf</link>
+		<guid isPermaLink="false">4110924dd85f82fda92ada75ef6710c65a2ce09aa60902472184c299d7718b27</guid>
+		<pubDate>Fri, 28 Apr 2023 10:46:42 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_INDOOR_Datasheet_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_INDOOR_Datasheet_es.pdf</link>
+		<guid isPermaLink="false">62edc6981c71f11310cd8cdc9e1bab52faa153a7c79a19a23f4d617b1c08f1d7</guid>
+		<pubDate>Fri, 28 Apr 2023 10:46:42 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_HomeServer2_Sep2022_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_HomeServer2_Sep2022_en.pdf</link>
+		<guid isPermaLink="false">96e2fcd7a51bb27ecc6c648e83d72d1ff0f55046c853ae8a76661cda8d206fbe</guid>
+		<pubDate>Mon, 21 Nov 2022 15:49:19 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_HomeServer2_Sep2022_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_HomeServer2_Sep2022_es.pdf</link>
+		<guid isPermaLink="false">368bfff3715fe512f5a7e3bf0a89f5416930a45b2803c1a731587ae4bf6e66fc</guid>
+		<pubDate>Mon, 21 Nov 2022 15:49:19 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_VERSO_Indoor_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VERSO_Indoor_en.pdf</link>
+		<guid isPermaLink="false">f3fe1f4379a938fb8113e916ba00535b22f262dd3ffbce1d2710320e925345e8</guid>
+		<pubDate>Mon, 21 Nov 2022 15:49:19 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_VERSO_Indoor_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VERSO_Indoor_es.pdf</link>
+		<guid isPermaLink="false">5b43d52a7b43ae6f568a60c40e4308d5f3d6f36b9dd0639a5076a66ce968f3d4</guid>
+		<pubDate>Mon, 21 Nov 2022 15:49:19 GMT</pubDate>
+	</item>
+	<item>
 		<title>PS-K640v2_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/PS-K640v2_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">bb158df5abbe9a044dc10800d9554cd189103bef19c04986df40c8290e316e44</guid>
