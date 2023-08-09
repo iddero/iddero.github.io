@@ -6,16 +6,52 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Iddero_Verso_INDOOR_1.0.knxprod</title>
+		<link>http://www.iddero.com/files/Iddero_Verso_INDOOR_1.0.knxprod</link>
+		<guid isPermaLink="false">6717e23d0bb835dd2cd9602ca7e9c68db69827330db098bf83c4b679bdc3e6f7</guid>
+		<pubDate>Wed, 09 Aug 2023 10:30:50 GMT</pubDate>
+	</item>
+	<item>
+		<title>rc2-verso_indoor-1.0.1.bin</title>
+		<link>http://www.iddero.com/files/rc2-verso_indoor-1.0.1.bin</link>
+		<guid isPermaLink="false">211caf7080c57521521ecda091ba46f20c165535a61a9168d47f7af710136c8a</guid>
+		<pubDate>Wed, 09 Aug 2023 10:29:45 GMT</pubDate>
+	</item>
+	<item>
+		<title>rc1-verso-1.4.2.bin</title>
+		<link>http://www.iddero.com/files/rc1-verso-1.4.2.bin</link>
+		<guid isPermaLink="false">bc913b9dead565148a80cb9b2674e1265b1a37dec89636a5a8809fb7279c945b</guid>
+		<pubDate>Wed, 09 Aug 2023 10:29:32 GMT</pubDate>
+	</item>
+	<item>
+		<title>rc1-verso_ip-1.4.2.bin</title>
+		<link>http://www.iddero.com/files/rc1-verso_ip-1.4.2.bin</link>
+		<guid isPermaLink="false">09faf6eb57898912930d6c51371be9a5f62ab2c40d0f8d3e0cd17a340cca6930</guid>
+		<pubDate>Wed, 09 Aug 2023 10:29:32 GMT</pubDate>
+	</item>
+	<item>
+		<title>Release_notes-4.6.pdf</title>
+		<link>http://www.iddero.com/files/Release_notes-4.6.pdf</link>
+		<guid isPermaLink="false">5d7c79edad93682361b81a472b323fd27dd2d4bae93865c3ea0be470abcc82dd</guid>
+		<pubDate>Wed, 09 Aug 2023 10:28:55 GMT</pubDate>
+	</item>
+	<item>
+		<title>iddero-config-4.6-setup.exe</title>
+		<link>http://www.iddero.com/files/iddero-config-4.6-setup.exe</link>
+		<guid isPermaLink="false">9bf1d1b55b1731aeb876b4055f7da29237a1c69bc64a2a1b4368db593a8e530c</guid>
+		<pubDate>Wed, 09 Aug 2023 10:23:12 GMT</pubDate>
+	</item>
+	<item>
+		<title>hc3-knx-4.6.bin</title>
+		<link>http://www.iddero.com/files/hc3-knx-4.6.bin</link>
+		<guid isPermaLink="false">f3973937a7599eb8eeb644b13984b8aeabc79c081ddc9228225710944cbcadd4</guid>
+		<pubDate>Wed, 09 Aug 2023 10:22:52 GMT</pubDate>
+	</item>
+	<item>
 		<title>VERSO_Manual_1.4_1.0_es.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_Manual_1.4_1.0_es.pdf</link>
 		<guid isPermaLink="false">7621b050c226b29f1759457050c9cc484f753c251884a321c89ee25435a1a2b8</guid>
 		<pubDate>Fri, 02 Jun 2023 08:22:02 GMT</pubDate>
-	</item>
-	<item>
-		<title>Iddero_Verso_INDOOR_1.0.knxprod</title>
-		<link>http://www.iddero.com/files/Iddero_Verso_INDOOR_1.0.knxprod</link>
-		<guid isPermaLink="false">6717e23d0bb835dd2cd9602ca7e9c68d163cf1c1ac2ddcaa809ccd5c29c77a35</guid>
-		<pubDate>Mon, 08 May 2023 14:55:06 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_Manual_1.4_en.pdf</title>
