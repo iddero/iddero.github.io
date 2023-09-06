@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>VERSO_Manual_1.4.2_1.0.1_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Manual_1.4.2_1.0.1_en.pdf</link>
+		<guid isPermaLink="false">635a65bf9e7ba75b6bab44acaf66162549b53d7a0a754b234412ececc69ccb09</guid>
+		<pubDate>Wed, 06 Sep 2023 09:02:49 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Manual_1.4.2_1.0.1_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Manual_1.4.2_1.0.1_es.pdf</link>
+		<guid isPermaLink="false">1362d1dc404a0cbcf8fe631b5f89cc0dde5601f5e3ec1a99b3ca8d87b144cd4d</guid>
+		<pubDate>Wed, 06 Sep 2023 09:02:45 GMT</pubDate>
+	</item>
+	<item>
 		<title>Iddero_Verso_INDOOR_1.0.knxprod</title>
 		<link>http://www.iddero.com/files/Iddero_Verso_INDOOR_1.0.knxprod</link>
 		<guid isPermaLink="false">6717e23d0bb835dd2cd9602ca7e9c68db69827330db098bf83c4b679bdc3e6f7</guid>
