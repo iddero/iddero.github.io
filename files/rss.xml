@@ -6,6 +6,30 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Flyer_VoiceControl_Mar2024_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VoiceControl_Mar2024_es.pdf</link>
+		<guid isPermaLink="false">c7cd348877082690dd3bc8ecfacfb3f91eae5d52f4f1d58a73cbbf895e513550</guid>
+		<pubDate>Tue, 20 Feb 2024 12:03:08 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_VoiceControl_Mar2024_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VoiceControl_Mar2024_en.pdf</link>
+		<guid isPermaLink="false">3286f32b9e70d8af787be483b86244cf04b13c816bb5a4211c1c87f6f0ec8879</guid>
+		<pubDate>Tue, 20 Feb 2024 12:03:04 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_HomeServer3_Mar2024_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_HomeServer3_Mar2024_en.pdf</link>
+		<guid isPermaLink="false">0d56a581e7858ec94b9238f19cbcce326a2c88fdfbdedecf040a47a67fdebc8a</guid>
+		<pubDate>Tue, 20 Feb 2024 12:02:10 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_HomeServer3_Mar2024_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_HomeServer3_Mar2024_es.pdf</link>
+		<guid isPermaLink="false">9c8de1054f73f3505b427fd0d46e3292af4301db17ff62742eb51ed604e5611d</guid>
+		<pubDate>Tue, 20 Feb 2024 12:02:05 GMT</pubDate>
+	</item>
+	<item>
 		<title>VERSO_Manual_1.4.2_1.0.1_en.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_Manual_1.4.2_1.0.1_en.pdf</link>
 		<guid isPermaLink="false">635a65bf9e7ba75b6bab44acaf66162549b53d7a0a754b234412ececc69ccb09</guid>
@@ -100,18 +124,6 @@
 		<link>http://www.iddero.com/files/VERSO_INDOOR_Datasheet_es.pdf</link>
 		<guid isPermaLink="false">62edc6981c71f11310cd8cdc9e1bab52faa153a7c79a19a23f4d617b1c08f1d7</guid>
 		<pubDate>Fri, 28 Apr 2023 10:46:42 GMT</pubDate>
-	</item>
-	<item>
-		<title>Flyer_HomeServer2_Sep2022_en.pdf</title>
-		<link>http://www.iddero.com/files/Flyer_HomeServer2_Sep2022_en.pdf</link>
-		<guid isPermaLink="false">96e2fcd7a51bb27ecc6c648e83d72d1ff0f55046c853ae8a76661cda8d206fbe</guid>
-		<pubDate>Mon, 21 Nov 2022 15:49:19 GMT</pubDate>
-	</item>
-	<item>
-		<title>Flyer_HomeServer2_Sep2022_es.pdf</title>
-		<link>http://www.iddero.com/files/Flyer_HomeServer2_Sep2022_es.pdf</link>
-		<guid isPermaLink="false">368bfff3715fe512f5a7e3bf0a89f5416930a45b2803c1a731587ae4bf6e66fc</guid>
-		<pubDate>Mon, 21 Nov 2022 15:49:19 GMT</pubDate>
 	</item>
 	<item>
 		<title>Flyer_VERSO_Indoor_en.pdf</title>
