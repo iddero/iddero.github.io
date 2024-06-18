@@ -21,7 +21,7 @@
     <link href="/css/lightbox.min-f10e351f.css" rel="stylesheet" />
     <link href="/css/flickity-372252d0.css" rel="stylesheet" />
     <link href="/css/theme-08ef8807.css" rel="stylesheet" />
-    <link href="/css/custom-1bbc051c.css" rel="stylesheet" />
+    <link href="/css/custom-312067bb.css" rel="stylesheet" />
     <link href="/css/font-roboto-5bce7052.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <script src="/js/util-3fbbf041.js"></script>
@@ -143,13 +143,25 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col">
-				<div class="tabs-container tabs--vertical fadeLeftRight">
+				<div class="tabs-container fadeLeftRight tabs--select">
+					<div class="row" style="padding: 0.75rem"> <!-- matches table padding -->
+						<div class="col-md-6 col-12">
+							<label class='form-label'>Selecciona producto</label>
+							<div class="input-select">
+								<select class="tab-select">
+										<option id="tab-general" value="general">General</option>
+										<option id="tab-verso_all" value="verso_all">Iddero Verso</option>
+										<option id="tab-hcx" value="hcx">HC3-KNX / HC3L-KNX</option>
+										<option id="tab-homeserver" value="homeserver">Iddero Home Server</option>
+										<option id="tab-system" value="system">Sistema</option>
+										<option id="tab-accessory" value="accessory">Accesorios</option>
+										<option id="tab-discontinued" value="discontinued">Descatalogados</option>
+								</select>
+							</div>
+						</div>
+					</div>
 					<ul class="tabs">
-							
 							<li id="tab-general" class="active">
-								<div class="tab__title">
-									<span class="h5">General</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -185,11 +197,7 @@
 									</table>
 								</div>
 							</li>
-							
 							<li id="tab-verso_all" class="">
-								<div class="tab__title">
-									<span class="h5">Iddero Verso</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -306,11 +314,7 @@
 									</table>
 								</div>
 							</li>
-							
 							<li id="tab-hcx" class="">
-								<div class="tab__title">
-									<span class="h5">HC3-KNX / HC3L-KNX</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -379,11 +383,7 @@
 									</table>
 								</div>
 							</li>
-							
 							<li id="tab-homeserver" class="">
-								<div class="tab__title">
-									<span class="h5">Iddero Home Server</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -425,11 +425,7 @@
 									</table>
 								</div>
 							</li>
-							
 							<li id="tab-system" class="">
-								<div class="tab__title">
-									<span class="h5">Sistema</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -444,11 +440,7 @@
 									</table>
 								</div>
 							</li>
-							
 							<li id="tab-accessory" class="">
-								<div class="tab__title">
-									<span class="h5">Accesorios</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -475,11 +467,7 @@
 									</table>
 								</div>
 							</li>
-							
 							<li id="tab-discontinued" class="">
-								<div class="tab__title">
-									<span class="h5">Descatalogados</span>
-								</div>
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -636,10 +624,11 @@
     </a>
     <script src="/js/jquery-3.1.1.min-f647a6d3.js"></script>
     <script src="/js/lightbox.min-4c59a782.js"></script>
-    <script src="/js/site-1d85d31e.js"></script>
+    <script src="/js/options-fa71dada.js"></script>
     <script src="/js/parallax-5d71beb5.js"></script>
     <script src="/js/isotope.min-6ab5675d.js"></script>
     <script src="/js/smooth-scroll.min-60b20414.js"></script>
     <script src="/js/scripts-3c9071e3.js"></script>
+    <script src="/js/site-360a6dba.js"></script>
 </body>
 </html>
