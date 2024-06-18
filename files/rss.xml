@@ -6,40 +6,64 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Iddero_VERSO_2_2.0.knxprod</title>
+		<link>http://www.iddero.com/files/Iddero_VERSO_2_2.0.knxprod</link>
+		<guid isPermaLink="false">de9790652119e07a39dc5bba534e6f57bb11f6f81556d49783d93824337dd8d9</guid>
+		<pubDate>Tue, 18 Jun 2024 09:58:09 GMT</pubDate>
+	</item>
+	<item>
+		<title>Iddero_VERSO_IP_2_2.0.knxprod</title>
+		<link>http://www.iddero.com/files/Iddero_VERSO_IP_2_2.0.knxprod</link>
+		<guid isPermaLink="false">366f2b1d034e31b45cd2d25e32126e46884e76c793b5fcbdecc99c31bb87690a</guid>
+		<pubDate>Tue, 18 Jun 2024 09:58:09 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Manual_2.0_1.0.1_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Manual_2.0_1.0.1_en.pdf</link>
+		<guid isPermaLink="false">28c778f00fb7f6c493bf8069f76c1e684e2e1c561ba71efebebed397bfa71925</guid>
+		<pubDate>Tue, 18 Jun 2024 09:52:21 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Manual_2.0_1.0.1_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Manual_2.0_1.0.1_es.pdf</link>
+		<guid isPermaLink="false">a12dd255090dadec6cd1905c7c3b06ac6ad22391e86faf4b8576ac9198c4ddff</guid>
+		<pubDate>Tue, 18 Jun 2024 09:52:21 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_IP_2_Datasheet_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_IP_2_Datasheet_es.pdf</link>
+		<guid isPermaLink="false">75ef0a73ae64fad86bf092d75f21b99459373d0796be6357b104f6ab74a8144f</guid>
+		<pubDate>Tue, 18 Jun 2024 09:51:00 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_IP_2_Datasheet_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_IP_2_Datasheet_en.pdf</link>
+		<guid isPermaLink="false">e3b634aafcaf6db881a96ff86c1207993c4a9013d62c58242669daf58afdf65f</guid>
+		<pubDate>Tue, 18 Jun 2024 09:50:59 GMT</pubDate>
+	</item>
+	<item>
 		<title>VERSO_2_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_2_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">1ae1ccf6175715b262e51a34c6d0a220a64c14a0c4ee7beda56d55bc06e06df0</guid>
-		<pubDate>Wed, 12 Jun 2024 15:02:34 GMT</pubDate>
+		<pubDate>Tue, 18 Jun 2024 09:05:57 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_2_Datasheet_es.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_2_Datasheet_es.pdf</link>
 		<guid isPermaLink="false">c78a6de58ae9eba4814695330bc9048806fb51416a6623a80296ae141757944f</guid>
-		<pubDate>Wed, 12 Jun 2024 15:02:34 GMT</pubDate>
+		<pubDate>Tue, 18 Jun 2024 09:05:57 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_INDOOR_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_INDOOR_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">4110924dd85f82fda92ada75ef6710c69caf87e82e39d1ca4c032d831012afbf</guid>
-		<pubDate>Wed, 12 Jun 2024 15:02:34 GMT</pubDate>
+		<pubDate>Tue, 18 Jun 2024 09:05:57 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_INDOOR_Datasheet_es.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_INDOOR_Datasheet_es.pdf</link>
 		<guid isPermaLink="false">62edc6981c71f11310cd8cdc9e1bab52057758de89035b79beee64fc312ae307</guid>
-		<pubDate>Wed, 12 Jun 2024 15:02:34 GMT</pubDate>
-	</item>
-	<item>
-		<title>VERSO_IP_2_Datasheet_en.pdf</title>
-		<link>http://www.iddero.com/files/VERSO_IP_2_Datasheet_en.pdf</link>
-		<guid isPermaLink="false">e3b634aafcaf6db881a96ff86c1207998a8b0191ef9e0b2e770ee41616f00ade</guid>
-		<pubDate>Wed, 12 Jun 2024 15:02:34 GMT</pubDate>
-	</item>
-	<item>
-		<title>VERSO_IP_2_Datasheet_es.pdf</title>
-		<link>http://www.iddero.com/files/VERSO_IP_2_Datasheet_es.pdf</link>
-		<guid isPermaLink="false">75ef0a73ae64fad86bf092d75f21b9943c737b828e4fd27609e118f7ed95b5ec</guid>
-		<pubDate>Wed, 12 Jun 2024 15:02:34 GMT</pubDate>
+		<pubDate>Tue, 18 Jun 2024 09:05:57 GMT</pubDate>
 	</item>
 	<item>
 		<title>Flyer_VERSO_Indoor_es.pdf</title>
