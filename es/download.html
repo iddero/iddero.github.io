@@ -21,7 +21,7 @@
     <link href="/css/lightbox.min-f10e351f.css" rel="stylesheet" />
     <link href="/css/flickity-372252d0.css" rel="stylesheet" />
     <link href="/css/theme-08ef8807.css" rel="stylesheet" />
-    <link href="/css/custom-312067bb.css" rel="stylesheet" />
+    <link href="/css/custom-2c8701d8.css" rel="stylesheet" />
     <link href="/css/font-roboto-5bce7052.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <script src="/js/util-3fbbf041.js"></script>
@@ -77,9 +77,7 @@
     <li><a href="/es/">Inicio</a></li>
     <li><a href="/es/products">Productos</a></li>
     <li><a href="/es/download">Descargas</a></li>
-    <!--
     <li><a href="/es/training">Formación</a></li>
-    -->
     <li><a href="/es/references">Referencias</a></li>
     <li><a href="/es/contact">Contacto</a></li>
     <li class="dropdown dropdown--absolute hidden-xs">
@@ -149,15 +147,24 @@
 							<label class='form-label'>Selecciona producto</label>
 							<div class="input-select">
 								<select class="tab-select">
-										<option id="tab-general" value="general">General</option>
-										<option id="tab-verso_all" value="verso_all">Iddero Verso</option>
-										<option id="tab-hcx" value="hcx">HC3-KNX / HC3L-KNX</option>
-										<option id="tab-homeserver" value="homeserver">Iddero Home Server</option>
-										<option id="tab-system" value="system">Sistema</option>
-										<option id="tab-accessory" value="accessory">Accesorios</option>
-										<option id="tab-discontinued" value="discontinued">Descatalogados</option>
+										<option id="tab-general" class="" value="general">General</option>
+										<option id="tab-verso_all" class="" value="verso_all">Iddero Verso</option>
+										<option id="tab-hcx" class="" value="hcx">HC3-KNX / HC3L-KNX</option>
+										<option id="tab-homeserver" class="" value="homeserver">Iddero Home Server</option>
+										<option id="tab-system" class="" value="system">Sistema</option>
+										<option id="tab-accessory" class="" value="accessory">Accesorios</option>
+										<option id="tab-discontinued" class="discontinued-option" value="discontinued">Descatalogados</option>
 								</select>
 							</div>
+							<!--
+							<div class="input-checkbox-container">
+								<div class="input-checkbox">
+									<input id="show-discontinued" type="checkbox">
+									<label for="show-discontinued"></label>
+								</div>
+								<label for="show-discontinued" class='form-label'>Incluir descatalogados</label>
+							</div>
+							-->
 						</div>
 					</div>
 					<ul class="tabs">
@@ -635,6 +642,6 @@
     <script src="/js/isotope.min-6ab5675d.js"></script>
     <script src="/js/smooth-scroll.min-60b20414.js"></script>
     <script src="/js/scripts-3c9071e3.js"></script>
-    <script src="/js/site-360a6dba.js"></script>
+    <script src="/js/site-6809b52b.js"></script>
 </body>
 </html>
