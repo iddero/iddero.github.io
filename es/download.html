@@ -147,13 +147,39 @@
 							<label class='form-label'>Selecciona producto</label>
 							<div class="input-select">
 								<select class="tab-select">
-										<option id="tab-general" class="" value="general">General</option>
-										<option id="tab-verso_all" class="" value="verso_all">Iddero Verso</option>
-										<option id="tab-hcx" class="" value="hcx">HC3-KNX / HC3L-KNX</option>
-										<option id="tab-homeserver" class="" value="homeserver">Iddero Home Server</option>
-										<option id="tab-system" class="" value="system">Sistema</option>
-										<option id="tab-accessory" class="" value="accessory">Accesorios</option>
-										<option id="tab-discontinued" class="discontinued-option" value="discontinued">Descatalogados</option>
+										<option id="tab-verso"
+											class=""
+											value="verso">VERSO</option>
+										<option id="tab-verso_ip"
+											class=""
+											value="verso_ip">VERSO+IP</option>
+										<option id="tab-verso_indoor"
+											class=""
+											value="verso_indoor">VERSO INDOOR</option>
+										<option id="tab-hc3"
+											class=""
+											value="hc3">HC3-KNX</option>
+										<option id="tab-hc3l"
+											class=""
+											value="hc3l">HC3L-KNX</option>
+										<option id="tab-hc2"
+											class="discontinued-option"
+											value="hc2">HC1i-KNX / HC2-KNX / HC2L-KNX (descatalogados)</option>
+										<option id="tab-hc1"
+											class="discontinued-option"
+											value="hc1">HC1-KNX (descatalogado)</option>
+										<option id="tab-homeserver"
+											class=""
+											value="homeserver">Iddero Home Server</option>
+										<option id="tab-ps-k640v2"
+											class=""
+											value="ps-k640v2">PS-K640v2</option>
+										<option id="tab-dw-gsm"
+											class=""
+											value="dw-gsm">DW-GSM</option>
+										<option id="tab-accessory"
+											class=""
+											value="accessory">Sondas de temperatura</option>
 								</select>
 							</div>
 							<!--
@@ -168,43 +194,7 @@
 						</div>
 					</div>
 					<ul class="tabs">
-							<li id="tab-general" class="active">
-								<div class="tab__content">
-									<table class="table table-borderless downloads-table">
-											<tr class="category">
-												<td colspan=4><hr>Documentación comercial</td>
-											</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/Dossier_VERSO_Jun2022_es.pdf">Folleto Iddero VERSO</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">8.68 MB</td>
-														<td class="date" data-ts="1655797880">Jun 2022</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/Dossier_HC3_HC3L_Jun2022_es.pdf">Folleto HC3 / HC3L</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">10.54 MB</td>
-														<td class="date" data-ts="1655797880">Jun 2022</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link youtube"><a href="https://youtu.be/P5vzxkkVlDE">Vídeo publicitario Iddero VERSO</a></td>
-														<td class="download-type"></td>
-														<td class="download-size"></td>
-														<td class="date"></td>
-												</tr>
-											<tr class="category">
-												<td colspan=4><hr>Prescripción</td>
-											</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/Precios_Iddero_202101.bc3">Listado de productos en formato BC3</a></td>
-														<td class="download-type"><span class="download-icon-bc3">bc3</span></td>
-														<td class="download-size">18 KB</td>
-														<td class="date" data-ts="1612193708">Feb 2021</td>
-												</tr>
-									</table>
-								</div>
-							</li>
-							<li id="tab-verso_all" class="">
+							<li id="tab-verso" class="active">
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -231,18 +221,6 @@
 											<tr class="category">
 												<td colspan=4><hr>Documentación técnica</td>
 											</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/VERSO_INDOOR_Datasheet_es.pdf">Hoja técnica Iddero VERSO INDOOR</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">480 KB</td>
-														<td class="date" data-ts="1718701557">Jun 2024</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/VERSO_IP_Datasheet_es.pdf">Hoja técnica Iddero VERSO+IP</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">526 KB</td>
-														<td class="date" data-ts="1547712840">Ene 2019</td>
-												</tr>
 												<tr class="file">
 														<td class="download-link"><a href="/files/VERSO_Datasheet_es.pdf">Hoja técnica Iddero Verso</a></td>
 														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
@@ -283,30 +261,6 @@
 												<td colspan=4><hr>Software</td>
 											</tr>
 												<tr class="file">
-														<td class="download-link"><a href="/files/Iddero_Verso_INDOOR_1.0.knxprod">Iddero VERSO INDOOR: Programa de aplicación ETS (1.0)</a></td>
-														<td class="download-type"><span class="download-icon-knxprod">knxprod</span></td>
-														<td class="download-size">2.26 MB</td>
-														<td class="date" data-ts="1691577050">Ago 2023</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/rc2-verso_indoor-1.0.1.bin">Iddero VERSO INDOOR: Firmware update (1.0.1)</a></td>
-														<td class="download-type"><span class="download-icon-bin">bin</span></td>
-														<td class="download-size">1.81 MB</td>
-														<td class="date" data-ts="1691576985">Ago 2023</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/Iddero_Verso_IP_1.3.knxprod">Iddero VERSO+IP: Programa de aplicación ETS (1.3)</a></td>
-														<td class="download-type"><span class="download-icon-knxprod">knxprod</span></td>
-														<td class="download-size">1.17 MB</td>
-														<td class="date" data-ts="1643622356">Ene 2022</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/rc1-verso_ip-1.4.2.bin">Iddero VERSO+IP: Firmware update (1.4.2)</a></td>
-														<td class="download-type"><span class="download-icon-bin">bin</span></td>
-														<td class="download-size">1.87 MB</td>
-														<td class="date" data-ts="1691576972">Ago 2023</td>
-												</tr>
-												<tr class="file">
 														<td class="download-link"><a href="/files/Iddero_Verso_1.3.knxprod">Iddero Verso: Programa de aplicación ETS (1.3)</a></td>
 														<td class="download-type"><span class="download-icon-knxprod">knxprod</span></td>
 														<td class="download-size">1.17 MB</td>
@@ -321,7 +275,157 @@
 									</table>
 								</div>
 							</li>
-							<li id="tab-hcx" class="">
+							<li id="tab-verso_ip" class="">
+								<div class="tab__content">
+									<table class="table table-borderless downloads-table">
+											<tr class="category">
+												<td colspan=4><hr>Documentación comercial</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Dossier_VERSO_Jun2022_es.pdf">Folleto Iddero VERSO</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">8.68 MB</td>
+														<td class="date" data-ts="1655797880">Jun 2022</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/verso-demo-kit2_A4_es.pdf">Folleto Iddero VERSO demo kits</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">1.07 MB</td>
+														<td class="date" data-ts="1588770976">May 2020</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link youtube"><a href="https://youtu.be/P5vzxkkVlDE">Vídeo publicitario Iddero VERSO</a></td>
+														<td class="download-type"></td>
+														<td class="download-size"></td>
+														<td class="date"></td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Documentación técnica</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/VERSO_IP_Datasheet_es.pdf">Hoja técnica Iddero VERSO+IP</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">526 KB</td>
+														<td class="date" data-ts="1547712840">Ene 2019</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/VERSO_Manual_1.4.2_1.0.1_es.pdf">Manual de usuario</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">2.6 MB</td>
+														<td class="date" data-ts="1693990965">Sep 2023</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/VERSO_iconlist_es.pdf">Listado de iconos</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">240 KB</td>
+														<td class="date" data-ts="1487253585">Feb 2017</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/E-F401_Datasheet.pdf">Hoja técnica E-F401 (adaptador para montaje enrasado)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">330 KB</td>
+														<td class="date" data-ts="1524824456">Abr 2018</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/E-Cxxx_Datasheet_es.pdf">Hoja técnica E-Cxxx (cajas de empotrar)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">171 KB</td>
+														<td class="date" data-ts="1589435389">May 2020</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/E-PSUxx_Datasheet_es.pdf">Hoja técnica E-PSUxx (fuentes de alimentación)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">135 KB</td>
+														<td class="date" data-ts="1648454817">Mar 2022</td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Software</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Iddero_Verso_IP_1.3.knxprod">Iddero VERSO+IP: Programa de aplicación ETS (1.3)</a></td>
+														<td class="download-type"><span class="download-icon-knxprod">knxprod</span></td>
+														<td class="download-size">1.17 MB</td>
+														<td class="date" data-ts="1643622356">Ene 2022</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/rc1-verso_ip-1.4.2.bin">Iddero VERSO+IP: Firmware update (1.4.2)</a></td>
+														<td class="download-type"><span class="download-icon-bin">bin</span></td>
+														<td class="download-size">1.87 MB</td>
+														<td class="date" data-ts="1691576972">Ago 2023</td>
+												</tr>
+									</table>
+								</div>
+							</li>
+							<li id="tab-verso_indoor" class="">
+								<div class="tab__content">
+									<table class="table table-borderless downloads-table">
+											<tr class="category">
+												<td colspan=4><hr>Documentación comercial</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Dossier_VERSO_Jun2022_es.pdf">Folleto Iddero VERSO</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">8.68 MB</td>
+														<td class="date" data-ts="1655797880">Jun 2022</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link youtube"><a href="https://youtu.be/P5vzxkkVlDE">Vídeo publicitario Iddero VERSO</a></td>
+														<td class="download-type"></td>
+														<td class="download-size"></td>
+														<td class="date"></td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Documentación técnica</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/VERSO_INDOOR_Datasheet_es.pdf">Hoja técnica Iddero VERSO INDOOR</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">480 KB</td>
+														<td class="date" data-ts="1718701557">Jun 2024</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/VERSO_Manual_1.4.2_1.0.1_es.pdf">Manual de usuario</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">2.6 MB</td>
+														<td class="date" data-ts="1693990965">Sep 2023</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/VERSO_iconlist_es.pdf">Listado de iconos</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">240 KB</td>
+														<td class="date" data-ts="1487253585">Feb 2017</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/E-Cxxx_Datasheet_es.pdf">Hoja técnica E-Cxxx (cajas de empotrar)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">171 KB</td>
+														<td class="date" data-ts="1589435389">May 2020</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/E-PSUxx_Datasheet_es.pdf">Hoja técnica E-PSUxx (fuentes de alimentación)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">135 KB</td>
+														<td class="date" data-ts="1648454817">Mar 2022</td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Software</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Iddero_Verso_INDOOR_1.0.knxprod">Iddero VERSO INDOOR: Programa de aplicación ETS (1.0)</a></td>
+														<td class="download-type"><span class="download-icon-knxprod">knxprod</span></td>
+														<td class="download-size">2.26 MB</td>
+														<td class="date" data-ts="1691577050">Ago 2023</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/rc2-verso_indoor-1.0.1.bin">Iddero VERSO INDOOR: Firmware update (1.0.1)</a></td>
+														<td class="download-type"><span class="download-icon-bin">bin</span></td>
+														<td class="download-size">1.81 MB</td>
+														<td class="date" data-ts="1691576985">Ago 2023</td>
+												</tr>
+									</table>
+								</div>
+							</li>
+							<li id="tab-hc3" class="">
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -336,12 +440,6 @@
 											<tr class="category">
 												<td colspan=4><hr>Documentación técnica</td>
 											</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/HC3L-KNX_Datasheet_es.pdf">Hoja técnica HC3L-KNX</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">653 KB</td>
-														<td class="date" data-ts="1590044591">May 2020</td>
-												</tr>
 												<tr class="file">
 														<td class="download-link"><a href="/files/HC3-KNX_Datasheet_es.pdf">Hoja técnica HC3-KNX</a></td>
 														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
@@ -390,6 +488,138 @@
 									</table>
 								</div>
 							</li>
+							<li id="tab-hc3l" class="">
+								<div class="tab__content">
+									<table class="table table-borderless downloads-table">
+											<tr class="category">
+												<td colspan=4><hr>Documentación comercial</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Dossier_HC3_HC3L_Jun2022_es.pdf">Folleto HC3 / HC3L</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">10.54 MB</td>
+														<td class="date" data-ts="1655797880">Jun 2022</td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Documentación técnica</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/HC3L-KNX_Datasheet_es.pdf">Hoja técnica HC3L-KNX</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">653 KB</td>
+														<td class="date" data-ts="1590044591">May 2020</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/HCx-KNX_Guia_rapida.pdf">Guía rápida HCx-KNX</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">1.31 MB</td>
+														<td class="date" data-ts="1359371872">Ene 2013</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/HCx-KNX_Manual.pdf">Manual de usuario HCx-KNX</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">3.45 MB</td>
+														<td class="date" data-ts="1359371168">Ene 2013</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/E-Cxxx_Datasheet_es.pdf">Hoja técnica E-Cxxx (cajas de empotrar)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">171 KB</td>
+														<td class="date" data-ts="1589435389">May 2020</td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Software</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/hc3-knx-4.6.bin">Firmware update (4.6)</a></td>
+														<td class="download-type"><span class="download-icon-bin">bin</span></td>
+														<td class="download-size">3.06 MB</td>
+														<td class="date" data-ts="1691576572">Ago 2023</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/iddero-config-4.6-setup.exe">iddero-config 4.6</a></td>
+														<td class="download-type"><span class="download-icon-exe">exe</span></td>
+														<td class="download-size">16.72 MB</td>
+														<td class="date" data-ts="1691576592">Ago 2023</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Release_notes-4.6.pdf">Release notes (4.6)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">81 KB</td>
+														<td class="date" data-ts="1691576935">Ago 2023</td>
+												</tr>
+									</table>
+								</div>
+							</li>
+							<li id="tab-hc2" class="">
+								<div class="tab__content">
+									<table class="table table-borderless downloads-table">
+											<tr class="category">
+												<td colspan=4><hr>Documentación técnica</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/HC2L-KNX_Hoja_tecnica.pdf">Hoja técnica HC2L-KNX</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">419 KB</td>
+														<td class="date" data-ts="1304068568">Abr 2011</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/HC2-KNX_Hoja_tecnica.pdf">Hoja técnica HC2-KNX</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">498 KB</td>
+														<td class="date" data-ts="1302861750">Abr 2011</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/HC1i-KNX_Hoja_tecnica.pdf">Hoja técnica HC1i-KNX</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">789 KB</td>
+														<td class="date" data-ts="1405411111">Jul 2014</td>
+												</tr>
+											<tr class="category">
+												<td colspan=4><hr>Software</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/hc2-knx-3.5.1.bin">HC1i-KNX / HC2-KNX / HC2L-KNX: Firmware update (3.5.1)</a></td>
+														<td class="download-type"><span class="download-icon-bin">bin</span></td>
+														<td class="download-size">2.8 MB</td>
+														<td class="date" data-ts="1568705220">Sep 2019</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/iddero-config-3.5-setup.exe">HC1i-KNX / HC2-KNX / HC2L-KNX: iddero-config 3.5</a></td>
+														<td class="download-type"><span class="download-icon-exe">exe</span></td>
+														<td class="download-size">14.7 MB</td>
+														<td class="date" data-ts="1568705220">Sep 2019</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/Release_notes-3.5.1.pdf">HCx-KNX: Release notes (3.5.1)</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">278 KB</td>
+														<td class="date" data-ts="1568708340">Sep 2019</td>
+												</tr>
+									</table>
+								</div>
+							</li>
+							<li id="tab-hc1" class="">
+								<div class="tab__content">
+									<table class="table table-borderless downloads-table">
+											<tr class="category">
+												<td colspan=4><hr>Software</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/hc1-knx-1.9.bin">HC1-KNX: Firmware update (1.9)</a></td>
+														<td class="download-type"><span class="download-icon-bin">bin</span></td>
+														<td class="download-size">791 KB</td>
+														<td class="date" data-ts="1586191161">Abr 2020</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/iddero-config-2.1-setup.exe">HC1-KNX: iddero-config 2.1</a></td>
+														<td class="download-type"><span class="download-icon-exe">exe</span></td>
+														<td class="download-size">14.25 MB</td>
+														<td class="date" data-ts="1446543676">Nov 2015</td>
+												</tr>
+									</table>
+								</div>
+							</li>
 							<li id="tab-homeserver" class="">
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
@@ -432,7 +662,7 @@
 									</table>
 								</div>
 							</li>
-							<li id="tab-system" class="">
+							<li id="tab-ps-k640v2" class="">
 								<div class="tab__content">
 									<table class="table table-borderless downloads-table">
 											<tr class="category">
@@ -443,6 +673,27 @@
 														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
 														<td class="download-size">108 KB</td>
 														<td class="date" data-ts="1655828227">Jun 2022</td>
+												</tr>
+									</table>
+								</div>
+							</li>
+							<li id="tab-dw-gsm" class="">
+								<div class="tab__content">
+									<table class="table table-borderless downloads-table">
+											<tr class="category">
+												<td colspan=4><hr>Documentación técnica</td>
+											</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/DW-GSM_Hoja_tecnica.pdf">Hoja técnica DW-GSM</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">283 KB</td>
+														<td class="date" data-ts="1418915702">Dic 2014</td>
+												</tr>
+												<tr class="file">
+														<td class="download-link"><a href="/files/DW-GSM_Manual.pdf">Manual de usuario DW-GSM</a></td>
+														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
+														<td class="download-size">540 KB</td>
+														<td class="date" data-ts="1387192486">Dic 2013</td>
 												</tr>
 									</table>
 								</div>
@@ -464,78 +715,6 @@
 														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
 														<td class="download-size">99 KB</td>
 														<td class="date" data-ts="1589521815">May 2020</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/DW-GSM_Hoja_tecnica.pdf">Hoja técnica DW-GSM</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">283 KB</td>
-														<td class="date" data-ts="1418915702">Dic 2014</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/DW-GSM_Manual.pdf">Manual de usuario DW-GSM</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">540 KB</td>
-														<td class="date" data-ts="1387192486">Dic 2013</td>
-												</tr>
-									</table>
-								</div>
-							</li>
-							<li id="tab-discontinued" class="">
-								<div class="tab__content">
-									<table class="table table-borderless downloads-table">
-											<tr class="category">
-												<td colspan=4><hr>Documentación técnica</td>
-											</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/HC2L-KNX_Hoja_tecnica.pdf">Hoja técnica HC2L-KNX</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">419 KB</td>
-														<td class="date" data-ts="1304068568">Abr 2011</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/HC2-KNX_Hoja_tecnica.pdf">Hoja técnica HC2-KNX</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">498 KB</td>
-														<td class="date" data-ts="1302861750">Abr 2011</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/HC1i-KNX_Hoja_tecnica.pdf">Hoja técnica HC1i-KNX</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">789 KB</td>
-														<td class="date" data-ts="1405411111">Jul 2014</td>
-												</tr>
-											<tr class="category">
-												<td colspan=4><hr>Software</td>
-											</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/hc2-knx-3.5.1.bin">HC1i-KNX / HC2-KNX / HC2L-KNX: Firmware update (3.5.1)</a></td>
-														<td class="download-type"><span class="download-icon-bin">bin</span></td>
-														<td class="download-size">2.8 MB</td>
-														<td class="date" data-ts="1568705220">Sep 2019</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/iddero-config-3.5-setup.exe">HC1i-KNX / HC2-KNX / HC2L-KNX: iddero-config 3.5</a></td>
-														<td class="download-type"><span class="download-icon-exe">exe</span></td>
-														<td class="download-size">14.7 MB</td>
-														<td class="date" data-ts="1568705220">Sep 2019</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/hc1-knx-1.9.bin">HC1-KNX: Firmware update (1.9)</a></td>
-														<td class="download-type"><span class="download-icon-bin">bin</span></td>
-														<td class="download-size">791 KB</td>
-														<td class="date" data-ts="1586191161">Abr 2020</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/iddero-config-2.1-setup.exe">HC1-KNX: iddero-config 2.1</a></td>
-														<td class="download-type"><span class="download-icon-exe">exe</span></td>
-														<td class="download-size">14.25 MB</td>
-														<td class="date" data-ts="1446543676">Nov 2015</td>
-												</tr>
-												<tr class="file">
-														<td class="download-link"><a href="/files/Release_notes-3.5.1.pdf">HCx-KNX: Release notes (3.5.1)</a></td>
-														<td class="download-type"><span class="download-icon-pdf">pdf</span></td>
-														<td class="download-size">278 KB</td>
-														<td class="date" data-ts="1568708340">Sep 2019</td>
 												</tr>
 									</table>
 								</div>
