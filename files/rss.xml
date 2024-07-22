@@ -6,6 +6,12 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Precios_Iddero_202406.bc3</title>
+		<link>http://www.iddero.com/files/Precios_Iddero_202406.bc3</link>
+		<guid isPermaLink="false">e23a3052e07f7651174f128f45bc869de31d971694ef3da9344bd304c2eabafb</guid>
+		<pubDate>Mon, 22 Jul 2024 11:01:41 GMT</pubDate>
+	</item>
+	<item>
 		<title>TS-GLASS_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/TS-GLASS_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">d2e3cc424421d234c2f674b7b0254d4ab2af376de9bd4799bb0d4aa72a332736</guid>
