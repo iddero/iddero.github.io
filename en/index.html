@@ -21,7 +21,7 @@
     <link href="/css/lightbox.min-f10e351f.css" rel="stylesheet" />
     <link href="/css/flickity-372252d0.css" rel="stylesheet" />
     <link href="/css/theme-08ef8807.css" rel="stylesheet" />
-    <link href="/css/custom-454fa09c.css" rel="stylesheet" />
+    <link href="/css/custom-94cc53f1.css" rel="stylesheet" />
     <link href="/css/font-roboto-5bce7052.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <script src="/js/util-3fbbf041.js"></script>
@@ -168,8 +168,29 @@
 <section class="unpad tiles">
     <!-- Note, no container! -->
     <div class="row">
-            <div class="masonry__item col-12 text-center" style="background-color: #2f9b30">
-                <a href="/en/products/verso-ip-2">
+            <div class="masonry__item col-12 text-center bg--dark">
+                <div class="slider" data-arrows="true" data-paging="true" data-timing="5000">
+                    <ul class="slides">
+                        <li style="background-color: #000">
+                            <a href="/en/products/verso-2">
+    <picture>
+        <source
+            srcset="/img/banners/plusx2024_banner_lg_en.png"
+            media="(min-width: 960px)">
+        <source
+            srcset="/img/banners/plusx2024_banner_md_en.png"
+            media="(min-width: 768px)"/>
+        <source
+            srcset="/img/banners/plusx2024_banner_sm_en.png, /img/banners/plusx2024_banner_sm_en@2x.png 2x">
+        <img
+            alt="VERSO 2 PLUS X Award 2024"
+            src="/img/banners/plusx2024_banner_lg_en.png">
+    </picture>
+</a>
+
+                        </li>
+                        <li style="background-color: #2f9b30">
+                            <a href="/en/products/verso-ip-2">
     <picture>
         <source
             srcset="/img/banners/knxaward2024_banner_lg_en.png"
@@ -185,6 +206,9 @@
     </picture>
 </a>
 
+                        </li>                        
+                    </ul>
+                </div>
             </div>
         <div class="masonry__item col-lg-6">
             <div class="tile">
@@ -411,6 +435,7 @@
     <script src="/js/parallax-5d71beb5.js"></script>
     <script src="/js/isotope.min-6ab5675d.js"></script>
     <script src="/js/smooth-scroll.min-60b20414.js"></script>
+            <script src="/js/flickity.min-5cdf8cb0.js"></script>
     <script src="/js/scripts-3c9071e3.js"></script>
     <script src="/js/site-6809b52b.js"></script>
 </body>
