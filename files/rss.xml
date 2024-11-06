@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Flyer_HomeServer3_Nov2024_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_HomeServer3_Nov2024_en.pdf</link>
+		<guid isPermaLink="false">7e235c0ff854f45ea26f7fc12ff70947603b56db8e4a55f6d140950d946b4ac0</guid>
+		<pubDate>Wed, 06 Nov 2024 08:59:03 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_HomeServer3_Nov2024_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_HomeServer3_Nov2024_es.pdf</link>
+		<guid isPermaLink="false">b01ab45bd85cb0bd269192a8dac177c0d64fd759b280bf574ca0f92fd7a9c607</guid>
+		<pubDate>Wed, 06 Nov 2024 08:59:03 GMT</pubDate>
+	</item>
+	<item>
 		<title>SER3-KNX_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/SER3-KNX_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">15db5b3484e133b32b2edfe818d37279144a68c97d18e6de675f18634e80a411</guid>
