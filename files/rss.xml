@@ -6,6 +6,24 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Release_notes-4.7.pdf</title>
+		<link>http://www.iddero.com/files/Release_notes-4.7.pdf</link>
+		<guid isPermaLink="false">a9227cd54d38ea2995f35032df2febdfe46addc3390d99e1d339c6b25eed839c</guid>
+		<pubDate>Tue, 12 Nov 2024 12:20:22 GMT</pubDate>
+	</item>
+	<item>
+		<title>iddero-config-4.7-setup.exe</title>
+		<link>http://www.iddero.com/files/iddero-config-4.7-setup.exe</link>
+		<guid isPermaLink="false">f3f8e88eb844d0a43c0555cce15111eb9352294d026d08d69854bd0bdf3efe5c</guid>
+		<pubDate>Tue, 12 Nov 2024 12:20:11 GMT</pubDate>
+	</item>
+	<item>
+		<title>hc3-knx-4.7.bin</title>
+		<link>http://www.iddero.com/files/hc3-knx-4.7.bin</link>
+		<guid isPermaLink="false">fad54831b49f9790d7aea6a92118c1ee4f740ed233cab802d66c5c42f4d57515</guid>
+		<pubDate>Tue, 12 Nov 2024 12:20:10 GMT</pubDate>
+	</item>
+	<item>
 		<title>TS-N1PB_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/TS-N1PB_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">ac78e49d9f82b43eec01e7644ca618a9ef4ce7c149b04066f91a59e7866643dc</guid>
