@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>TS-N1PB_Datasheet_en.pdf</title>
+		<link>http://www.iddero.com/files/TS-N1PB_Datasheet_en.pdf</link>
+		<guid isPermaLink="false">ac78e49d9f82b43eec01e7644ca618a9ef4ce7c149b04066f91a59e7866643dc</guid>
+		<pubDate>Tue, 12 Nov 2024 10:26:50 GMT</pubDate>
+	</item>
+	<item>
+		<title>TS-N1PB_Datasheet_es.pdf</title>
+		<link>http://www.iddero.com/files/TS-N1PB_Datasheet_es.pdf</link>
+		<guid isPermaLink="false">0b8a65b109ef93e8050880195e1331d52e845264771b3c23b65e8c2ba3cdbbe3</guid>
+		<pubDate>Tue, 12 Nov 2024 10:26:50 GMT</pubDate>
+	</item>
+	<item>
 		<title>Flyer_HomeServer3_Nov2024_en.pdf</title>
 		<link>http://www.iddero.com/files/Flyer_HomeServer3_Nov2024_en.pdf</link>
 		<guid isPermaLink="false">7e235c0ff854f45ea26f7fc12ff70947603b56db8e4a55f6d140950d946b4ac0</guid>
