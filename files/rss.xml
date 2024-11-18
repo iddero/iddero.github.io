@@ -6,6 +6,12 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Release_notes-4.7.pdf</title>
+		<link>http://www.iddero.com/files/Release_notes-4.7.pdf</link>
+		<guid isPermaLink="false">a9227cd54d38ea2995f35032df2febdf38a64570370e3176abb289a3a0dc0d81</guid>
+		<pubDate>Thu, 14 Nov 2024 08:51:08 GMT</pubDate>
+	</item>
+	<item>
 		<title>AN_Expressions_en.pdf</title>
 		<link>http://www.iddero.com/files/AN_Expressions_en.pdf</link>
 		<guid isPermaLink="false">9c4ca219598dccaad5f205af83f50fbb3a6bc15184227424b2a3a9099f39da11</guid>
@@ -16,12 +22,6 @@
 		<link>http://www.iddero.com/files/AN_Expressions_es.pdf</link>
 		<guid isPermaLink="false">f088eaf4f5150d9320075a9634e8750bf28bdf83f0aaa7e89dc6d09cefbcfef9</guid>
 		<pubDate>Wed, 13 Nov 2024 17:35:04 GMT</pubDate>
-	</item>
-	<item>
-		<title>Release_notes-4.7.pdf</title>
-		<link>http://www.iddero.com/files/Release_notes-4.7.pdf</link>
-		<guid isPermaLink="false">a9227cd54d38ea2995f35032df2febdfe46addc3390d99e1d339c6b25eed839c</guid>
-		<pubDate>Tue, 12 Nov 2024 12:20:22 GMT</pubDate>
 	</item>
 	<item>
 		<title>iddero-config-4.7-setup.exe</title>
