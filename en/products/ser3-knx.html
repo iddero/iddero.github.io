@@ -21,7 +21,7 @@
     <link href="/css/lightbox.min-f10e351f.css" rel="stylesheet" />
     <link href="/css/flickity-372252d0.css" rel="stylesheet" />
     <link href="/css/theme-08ef8807.css" rel="stylesheet" />
-    <link href="/css/custom-94cc53f1.css" rel="stylesheet" />
+    <link href="/css/custom-f716ccf6.css" rel="stylesheet" />
     <link href="/css/font-roboto-5bce7052.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <script src="/js/util-3fbbf041.js"></script>
@@ -36,7 +36,7 @@
     </script>
     -->
 </head>
-<body class="" data-smooth-scroll-offset="40">
+<body class="ser3-knx" data-smooth-scroll-offset="40">
     <a id="start"></a>
         <div class="nav-container ">
         <div class="bar bar--sm visible-xs">
@@ -59,7 +59,7 @@
             <!--end of container-->
         </div>
         <!--end bar-->
-        <nav id="navmenu" class="bar bar--sm bar-1 hidden-xs " data-scroll-class='10vh:pos-fixed'>
+        <nav id="navmenu" class="bar bar--sm bar-1 hidden-xs bar--transparent bar--absolute bar--dark" data-scroll-class='10vh:pos-fixed'>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-1 col-md-2 hidden-xs">
@@ -130,17 +130,22 @@
         <!--end bar-->
     </div>
     <div class="main-container">
-        <section class="switchable feature-large space--xs">
-    <div class="container">
+        <section class="imagebg image--light parallax parallax-disable-mobile switchable height-90 cover">
+    <div class="background-image-holder hidden-xs">
+        <img alt="" src="/img/products/bg-cover-hs3.jpg">
+    </div>
+    <div class="background-image-holder visible-xs">
+        <img alt="" src="/img/products/bg-cover-hs3-v2-mobile.jpg">
+    </div>
+    <div class="container pos-vertical-center">
         <div class="row align-items-center justify-content-between">
-            <div class="col-md-6">
-                <img src="/img/products/ser3-knx.jpg">
-            </div>
             <div class="col-md-6 col-lg-5">
-                <div class="switchable__text">
-                    <h1><img src="/img/products/logo-homeserver-3.jpg"
-                            srcset="/img/products/logo-homeserver-3@2x.jpg 2x"
-                            alt="Iddero Home Server 3"></h1>
+                <div>
+                    <h1>
+                        <img src="/img/products/logo-homeserver-3.png"
+                            srcset="/img/products/logo-homeserver-3@2x.png 2x"
+                            alt="Iddero Home Server 3">
+                    </h1>
                     <h2>Compact home server for smartphone or tablet operation</h2>
                     <p class="h2 product-claim">intelligent evolution</p>
                 </div>
@@ -148,45 +153,120 @@
         </div>
     </div>
 </section>
-<section class="text-center bg--secondary space--xs">
+<section class="switchable space--sm">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col">
-                <h2>Now available!</h2>
-                <p>We are currently working on updating this page.<br>
-In the meanwhile, you may want to
-<a href="https://www.iddero.com/files/Flyer_HomeServer3_Nov2024_en.pdf">check out the product flyer</a>.</p>
-                <a href="https://www.iddero.com/files/Flyer_HomeServer3_Nov2024_en.pdf">
-                    <img alt="Flyer" src="/img/products/ser3-flyer.png">
-                </a>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6">
+                <img src="/img/products/ser3-knx.jpg">
+            </div>
+            <div class="col-md-6 pr-md-5">
+                <h2>Full control of the smart home, without wall-mounted touch panels</h2>
+<p>Iddero <b>Home Server 3</b> is a compact home server for control and monitoring of KNX installations.
+It combines advanced functionality with a powerful, intuitive visualisation.</p>
+<p>Control from smartphones and tablets is possible using the <b>Iddero Mobile</b> app (iOS / Android).
+A build-in web-based user interface also allows access from any device running
+a standard web browser. Both direct (LAN) connection and secure cloud-based operation
+are supported; no additional configuration required.</p>
+                <div class="store-links" style="margin-top: 20px">
+                    <div class="store-link app-store">
+                        <a href="https://apps.apple.com/us/app/iddero-mobile/id1455689169"><img alt="Download on the App Store" src="/img/app_store_badge_en-us.svg"></a>
+                    </div>
+                    <div class="store-link">
+                        <a href="https://play.google.com/store/apps/details?id=com.ingelabs.cloudapp"><img alt="Get it on Google Play" src="/img/google_play_badge_en.png"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!--
-<section class="switchable switchable--switch feature-large unpad imagebg image--light parallax space--xs" data-overlay="0">
-    <div class="background-image-holder"><img alt="background" src="/img/products/bg-home-server.jpg"></div>
+<section class="bg--secondary text-center space--sm">
     <div class="container">
-        <div class="row align-items-center justify-content-around">
-            <div class="col-md-6">
-                <div class="switchable__text">
-                    <p>A complete solution for control and monitoring of KNX installations,
-with all the functionality you need. Intuitive, user-friendly visualisation
-from any smartphone or tablet (iOS, Android), or from any device
-equipped with a supported web browser. Remote access through the
-<a href="idderocloud">idderocloud</a> service.</p>
-<p>Direct connection to the KNX bus. Includes 8 multi-function inputs:
-4 binary inputs, plus 4 configurable binary or temperature probe inputs.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_zones.svg">
+                    <h4>Graphical navigation through maps and zones</h4>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-12 text-center"><img alt="Image" src="/img/products/mano-homeserver.png"></div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_pages.svg">
+                    <h4>Up to 512 control pages (more than 4000 functions)</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_voice-control.svg">
+                    <h4>Voice control through Amazon Alexa<sup>(*)</sup></h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_time-schedules.svg">
+                    <h4>Weekly time schedules (with configurable date ranges)</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_editable-scenes.svg">
+                    <h4>User-editable scenes</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_logic-functions.svg">
+                    <h4>Logic and arithmetic functions</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_alarms.svg">
+                    <h4>Alarm monitoring with event log</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_presence.svg">
+                    <h4>Presence simulation with day and night schedules</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_notifications.svg">
+                    <h4>Event notifications via push, e-mail, or GSM<sup>(**)</sup></h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_thermostats.svg">
+                    <h4>8 Independent thermostats with separate 2-stage heating and cooling</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_inputs.svg">
+                    <h4>8 multifunction inputs for push buttons, sensors, etc.</h4>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature boxed bg-transparent">
+                    <img alt="" src="/img/products/icon_func_knx-bus.svg">
+                    <h4>Integrated KNX bus coupling unit (TP1)</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                (*) Available soon<br>
+                (**) Requires GSM expansion module
+            </div>
         </div>
     </div>
 </section>
 <section class="switchable feature-large space--xs">
     <div class="container">
-        <div class="row align-items-center justify-content-around">
-            <div class="col-md-6"> <img alt="" class="" src="/img/products/laptop-software-configuracion.jpg"> </div>
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-6"> <img alt="" src="/img/products/laptop-software-configuracion.jpg"> </div>
             <div class="col-md-6 col-lg-5">
                 <div class="switchable__text">
                     <h2>Easy, intuitive configuration</h2>
@@ -199,7 +279,6 @@ without actual access to the target device. Ultra-fast programming over IP.</p>
     </div>
 </section>
 <hr>
--->
 
 <section id="accessories" class="text-center space--xs accessories">
     <div class="container-fluid">
