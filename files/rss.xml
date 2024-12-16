@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>SER3-KNX_Quick_start_en.pdf</title>
+		<link>http://www.iddero.com/files/SER3-KNX_Quick_start_en.pdf</link>
+		<guid isPermaLink="false">fa877346b1ece3d192b573b11644a8c2ff918a4e60796b6851762b41672ccb02</guid>
+		<pubDate>Mon, 16 Dec 2024 09:36:17 GMT</pubDate>
+	</item>
+	<item>
+		<title>SER3-KNX_Quick_start_es.pdf</title>
+		<link>http://www.iddero.com/files/SER3-KNX_Quick_start_es.pdf</link>
+		<guid isPermaLink="false">bc3d8315daf7e3f6cd685bf8cb29343e0af22d145a3644f531c1dbb930dfefe8</guid>
+		<pubDate>Mon, 16 Dec 2024 09:36:11 GMT</pubDate>
+	</item>
+	<item>
 		<title>Release_notes-4.7.pdf</title>
 		<link>http://www.iddero.com/files/Release_notes-4.7.pdf</link>
 		<guid isPermaLink="false">a9227cd54d38ea2995f35032df2febdf38a64570370e3176abb289a3a0dc0d81</guid>
