@@ -6,16 +6,16 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
-		<title>Dossier_VERSO2_Jan2025_es.pdf</title>
-		<link>http://www.iddero.com/files/Dossier_VERSO2_Jan2025_es.pdf</link>
-		<guid isPermaLink="false">7c6bb6df9d50bfe79384af64d945665df8f48b574b96dde35e95397061643268</guid>
-		<pubDate>Wed, 08 Jan 2025 09:30:37 GMT</pubDate>
-	</item>
-	<item>
 		<title>Dossier_VERSO2_Jan2025_en.pdf</title>
 		<link>http://www.iddero.com/files/Dossier_VERSO2_Jan2025_en.pdf</link>
-		<guid isPermaLink="false">c6d604cbd9408c9915e4332f2c0666455cf1c455c7350944be434cb2bc8bba6e</guid>
-		<pubDate>Wed, 08 Jan 2025 09:30:36 GMT</pubDate>
+		<guid isPermaLink="false">c6d604cbd9408c9915e4332f2c066645ab4189ca64bcccdbd068528762a33edb</guid>
+		<pubDate>Wed, 08 Jan 2025 11:03:35 GMT</pubDate>
+	</item>
+	<item>
+		<title>Dossier_VERSO2_Jan2025_es.pdf</title>
+		<link>http://www.iddero.com/files/Dossier_VERSO2_Jan2025_es.pdf</link>
+		<guid isPermaLink="false">7c6bb6df9d50bfe79384af64d945665db11c6fea4836b0518625377e5c903ccb</guid>
+		<pubDate>Wed, 08 Jan 2025 11:03:35 GMT</pubDate>
 	</item>
 	<item>
 		<title>HC3_HC3L-KNX_Quick_start_en.pdf</title>
