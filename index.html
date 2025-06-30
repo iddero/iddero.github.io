@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex">
     <link rel="alternate" href="https://www.iddero.com/" hreflang="x-default">
-    <link rel="alternate" href="https://www.iddero.com/en" hreflang="en">
-    <link rel="alternate" href="https://www.iddero.com/es" hreflang="es">
+    <link rel="alternate" href="https://www.iddero.com/en/" hreflang="en">
+    <link rel="alternate" href="https://www.iddero.com/es/" hreflang="es">
     <title>Iddero</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,13 +16,13 @@
     <meta name="theme-color" content="#ffffff">    
     <script>
     (function() {
-        var siteLangs = 'en|es|';
+        var siteLangs = ['en', 'es'];
 
         function cookie(name) {
             var nameEQ = name + '=';
-            var ca = document.cookie.split('; ');
+            var ca = document.cookie.split(';');
             for (var i = 0; i < ca.length; i++) {
-                var c = ca[i];
+                var c = ca[i].trim();
                 if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length);
             }
             return null;
@@ -48,15 +49,18 @@
             }
 
             // NOT REACHED
-            return siteLangs.split("|", 1);
+            return 'en';
         }
 
         var lang = cookie('lang');
         if (siteLangs.indexOf(lang) == -1)
             lang = detect();
 
-        window.location.replace('/' + lang);
+        window.location.replace('/' + lang + '/');
     }) ();
-    </script>    
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=/en/" />
+    </noscript>
 </head>
 </html>

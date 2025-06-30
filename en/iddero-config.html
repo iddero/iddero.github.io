@@ -170,6 +170,10 @@
                             <input type="hidden" id="serial" name="serial" value="">
 
                             <div class="col-12">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" id="email" name="email" maxlength="255" placeholder="name&#64;domain.com" value="" required>
+                            </div>
+                            <div class="col-12">
                                 <label for="name" class="form-label">Name</label>
                                 <input type="text" id="name" name="name" maxlength="255" value="" required>
                             </div>
@@ -178,9 +182,12 @@
                                 <input type="text" id="company" name="company" maxlength="255" value="" required>
                             </div>
                             <div class="col-12">
-                                <label for="email" class="form-label">E-mail</label>
-                                <input type="email" id="email" name="email" maxlength="255" placeholder="name&#64;domain.com" value="" required>
-                            </div>
+                                <label for="country" class="form-label">Country</label>
+                                <div class="input-select">
+                                    <select name="country" id="country" required>
+                                    </select>
+                                </div>
+                            </div>                            
                             <div class="col-12">
                                 <div class="input-checkbox-container">
                                     <div class="input-checkbox">
@@ -202,7 +209,10 @@
             </div>
         </div>
     </div>
-</section>		
+</section>
+
+<script>var fullname = true;</script>
+<script src="/js/countries_en-c4248a3f.js"></script>
 
 <script>
 (function () {
@@ -311,6 +321,6 @@
     <script src="/js/isotope.min-6ab5675d.js"></script>
     <script src="/js/smooth-scroll.min-60b20414.js"></script>
     <script src="/js/scripts-3c9071e3.js"></script>
-    <script src="/js/site-4e99fa84.js"></script>
+    <script src="/js/site-7a3a3e71.js"></script>
 </body>
 </html>

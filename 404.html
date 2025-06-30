@@ -58,19 +58,19 @@
 (function() {
 	function cookie(name) {
 		var nameEQ = name + '=';
-		var ca = document.cookie.split('; ');
+		var ca = document.cookie.split(';');
 		for (var i = 0; i < ca.length; i++) {
-			var c = ca[i];
+			var c = ca[i].trim();
 			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length);
 		}
 		return null;
 	}
 
-	var siteLangs = 'en|es|';
+	var siteLangs = ['en', 'es'];
 
 	var lang = cookie('lang');
 	if (siteLangs.indexOf(lang) == -1)
-		lang = siteLangs.split("|", 1);
+		lang = 'en';
 
 	var text1, text2;
 	switch (lang)
@@ -112,6 +112,6 @@
     <script src="/js/isotope.min-6ab5675d.js"></script>
     <script src="/js/smooth-scroll.min-60b20414.js"></script>
     <script src="/js/scripts-3c9071e3.js"></script>
-    <script src="/js/site-4e99fa84.js"></script>
+    <script src="/js/site-7a3a3e71.js"></script>
 </body>
 </html>
