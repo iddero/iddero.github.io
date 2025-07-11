@@ -13,7 +13,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0096d6">
     <meta name="msapplication-TileColor" content="#0096d6">
-    <meta name="theme-color" content="#ffffff">    
+    <meta name="theme-color" content="#ffffff">
     <script>
     (function() {
         var siteLangs = ['en', 'es'];
@@ -56,7 +56,7 @@
         if (siteLangs.indexOf(lang) == -1)
             lang = detect();
 
-        window.location.replace('/' + lang + '/');
+        window.location.replace('/' + lang + '/' + window.location.search + window.location.hash);
     }) ();
     </script>
     <noscript>
