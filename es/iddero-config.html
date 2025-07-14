@@ -154,12 +154,6 @@
                         <p>Se ha producido un error al enviar la solicitud de activación.</p>
 <p>Por favor, contacte directamente con Iddero en <script>$$.mailto('vqqreb')</script>.</p>
                     </div>
-                    <div id="reply_ok" class="form-result d-none">
-                        <p>Response e-mail sent successfully.</p>
-                    </div>
-                    <div id="reply_err" class="form-result d-none">
-                        <p>An error occurred while sending the response e-mail.</p>
-                    </div>
 
                     <div id="config-form">
                         <p>Introduzca la información solicitada y haga click en "Enviar".</p>
@@ -198,8 +192,20 @@
                                     <label for="consent" class="form-label">He leído y acepto la <a href="/es/privacy">Política de privacidad</a> y los <a href="/es/legal">Términos de uso</a>.</label>
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <div class="input-checkbox-container">
+                                    <div class="input-checkbox">
+                                        <input type="checkbox" id="newsletter-consent" name="newsletter-consent" value="true">
+                                        <label for="newsletter-consent"></label>
+                                    </div>
+                                    <label for="consent" class="form-label">Quiero recibir vuestra newsletter.</label>
+                                </div>
+                            </div>
 
-                            <p class="col-12 small form-note">(*) Todos los campos son obligatorios</p>
+                            <div class="col-12">
+                                <p class="small form-note">Recibirás los emails en español. ¿Prefieres en inglés? <a class="switch-lang" data-lang="en" href="#">Clic aquí</a>.</p>
+                                <p class="small form-note">(*) Todos los campos son obligatorios</p>
+                            </div>
                             
                             <div class="col-md-5 col-lg-4 col-6">
                                 <button type="submit" class="btn btn--primary type--uppercase">Enviar</button>
@@ -213,7 +219,7 @@
 </section>
 
 <script>var fullname = true;</script>
-<script src="/js/countries_es-301765fd.js"></script>
+<script src="/js/countries_es-7c315a1b.js"></script>
 
 <script>
 (function () {
@@ -224,8 +230,6 @@
         switch (res) {
             case 'ok': el = "res_ok"; break;
             case 'err': el = "res_err"; break;
-            case 'reply_ok': el = "reply_ok"; break;
-            case 'reply_err': el = "reply_err"; break;
         }
         $$.removeClass(el, 'd-none');
     }
@@ -322,6 +326,6 @@
     <script src="/js/isotope.min-6ab5675d.js"></script>
     <script src="/js/smooth-scroll.min-60b20414.js"></script>
     <script src="/js/scripts-3c9071e3.js"></script>
-    <script src="/js/site-7a3a3e71.js"></script>
+    <script src="/js/site-f2271310.js"></script>
 </body>
 </html>
