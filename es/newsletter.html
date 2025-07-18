@@ -23,7 +23,7 @@
     <link href="/css/custom-507f286c.css" rel="stylesheet" />
     <link href="/css/font-roboto-5bce7052.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-    <script src="/js/util-3fbbf041.js"></script>
+    <script src="/js/util-5f64253a.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6289214-2"></script>
@@ -139,7 +139,7 @@
 <section class="space--sm">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8">
+            <div id="header" class="col-lg-8">
                 <p>Todo el mundo tiene una newsletter, y <b>todo el mundo te la vende de la misma forma</b>: apúntate <i>&ldquo;para estar al día de las últimas novedades y no perderte nada, bla bla bla&rdquo;</i>.</p>
 
 <p>La diferencia es que esta es muy probable que te interese.</p>
@@ -151,6 +151,13 @@
 <p>Pero lo más fácil es que lo pruebes tú mismo.</p>
 
 <p>Apuntarse es super sencillo y no te llevará más de un minuto. Y si no te gusta lo que te contamos, darse de baja es más sencillo todavía.</p>
+            </div>
+            <div id="header-referral" class="col-lg-8 d-none">
+                <p>Así que alguien te ha mandado un enlace de invitación para que te suscribas a nuestra newsletter. Pues nos parece genial.</p>
+
+<p>Eso sí, queremos avisarte de que <b>somos un poco diferentes</b>. Escribimos cada semana (a veces más de una vez). Vamos al grano y no siempre somos políticamente correctos.</p>
+
+<p>Creemos que te gustará, pero si no es así, no hay problema. Puedes darte de baja en cualquier momento, y tan amigos.</p>
             </div>
         </div>
     </div>
@@ -164,9 +171,10 @@
                         <input type="hidden" name="u" value="e71734878bf8b74bc69551eea">
                         <input type="hidden" name="id" value="7464d9255f">
                         <input type="hidden" name="MMERGE6" value="Spanish">
+                        <input type="hidden" name="REFERRER" id="r">
 
                         <div class="col-12">
-                            <label for="email" class="form-label">E-mail</label>
+                            <label for="email" class="form-label">Email</label>
                             <input type="email" name="EMAIL" id="email" placeholder="nombre&#64;dominio.com" required value="">
                         </div>
                         <div class="col-12">
@@ -217,9 +225,11 @@
 
 <script>
 (function () {
-    var email = $$.queryParam('email');
-    if (email) {
-        $$.val('email', email);
+    $$.fillFormFields(['email', 'fname', 'company', 'country', 'r']);
+
+    if ($$.queryParam('r')) {
+        $$.hide('header');
+        $$.removeClass('header-referral', 'd-none');
     }
 })();
 </script>
