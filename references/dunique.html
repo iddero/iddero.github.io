@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <link rel="alternate" href="https://www.iddero.com/references/dunique" hreflang="x-default">
+    <link rel="alternate" href="https://www.iddero.com/en/references/dunique" hreflang="en">
+    <link rel="alternate" href="https://www.iddero.com/es/references/dunique" hreflang="es">
+    <title>Iddero</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0096d6">
+    <meta name="msapplication-TileColor" content="#0096d6">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+    (function() {
+        var siteLangs = ['en', 'es'];
+
+        function cookie(name) {
+            var nameEQ = name + '=';
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i].trim();
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length);
+            }
+            return null;
+        }
+
+        function detect() {
+            try {
+                // window.navigator props from: https://gist.github.com/leipert/9586b796281faa5e27ed
+                var n = window.navigator;
+                var langs = n['languages'];
+                if (!langs) {
+                    var val = n['language'] || n['browserLanguage'] || n['userLanguage'] || n['systemLanguage'] || 'en';
+                    langs = [ val ];
+                }
+
+                for (var i = 0; i < langs.length; i++) {
+                    var lang = langs[i].substring(0, 2);
+                    if (siteLangs.indexOf(lang) != -1)
+                        return lang;
+                }
+            }
+            catch (err) {
+                console.error(err);
+            }
+
+            // NOT REACHED
+            return 'en';
+        }
+
+        var lang = cookie('lang');
+        if (siteLangs.indexOf(lang) == -1)
+            lang = detect();
+
+        window.location.replace('/' + lang + '/references/dunique' + window.location.search + window.location.hash);
+    }) ();
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=/en/references/dunique" />
+    </noscript>
+</head>
+</html>
