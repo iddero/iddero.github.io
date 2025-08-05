@@ -171,6 +171,9 @@
                         <input type="hidden" name="id" value="7464d9255f">
                         <input type="hidden" name="MMERGE6" value="English">
                         <input type="hidden" name="REFERRER" id="r">
+                        <input type="hidden" name="UTMSOURCE" id="utm_source">
+                        <input type="hidden" name="UTMMEDIUM" id="utm_medium">
+                        <input type="hidden" name="UTMCAMP" id="utm_campaign">
 
                         <div class="col-12">
                             <label for="email" class="form-label">Email</label>
@@ -224,7 +227,7 @@
 
 <script>
 (function () {
-    $$.fillFormFields(['email', 'fname', 'company', 'country', 'r']);
+    $$.fillFormFields(['email', 'fname', 'company', 'country', 'r', 'utm_source', 'utm_medium', 'utm_campaign']);
 
     if ($$.queryParam('r')) {
         $$.hide('header');
