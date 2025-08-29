@@ -140,24 +140,24 @@
     <div class="container">
         <div class="row justify-content-center">
             <div id="header" class="col-lg-8">
-                <p>Todo el mundo tiene una newsletter, y <b>todo el mundo te la vende de la misma forma</b>: apúntate <i>&ldquo;para estar al día de las últimas novedades y no perderte nada, bla bla bla&rdquo;</i>.</p>
+                <p id="newsletter-header-intro">Tenemos una newsletter. Sí, ya sabemos que todo el mundo tiene una. Pero <b>esta es diferente</b>. Tan diferente que lo más probable es que te interese.</p>
 
-<p>La diferencia es que esta es muy probable que te interese.</p>
+<p>Alguna vez hablamos de nuestros productos, sí, pero sobre todo hablamos de lo que se cuece en el sector, de negocios, de tecnología o de marketing, y en general de cualquier cosa que pensemos que te pueda interesar o que te pueda ser útil.</p>
 
-<p>Escribimos cada semana (a veces más de una vez). Vamos al grano y no siempre somos políticamente correctos.</p>
+<p>Lo que contamos ahí <b>no lo vas a encontrar en ningún otro sitio</b>. No lo colgamos en la web, ni lo publicamos en redes. Es sólo para miembros. Y no hay archivo. Semana que estás fuera, email que te pierdes.</p>
 
-<p>Obviamente te contaremos novedades sobre nuestros productos, pero también te contaremos otras cosas que nos parezcan interesantes o que creamos que te lo pueden parecer a ti. Ah, y algunas veces también haremos ofertas y promociones exclusivas para suscriptores.</p>
+<p>También te avisamos: <b>no es para todos los públicos</b>. Decimos lo que tenemos que decir, sin pelos en la lengua, y no somos políticamente correctos. Si eres de los que tienen la piel muy fina o de los que se ofenden con facilidad, mejor no te apuntes. En serio.</p>
 
-<p>Pero lo más fácil es que lo pruebes tú mismo.</p>
+<p>Si tú no eres de los de la piel fina: apuntarse es super sencillo y te lleva menos de 30 segundos. Y si no te gusta lo que te contamos, darse de baja es más fácil todavía.</p>
 
-<p>Apuntarse es super sencillo y no te llevará más de un minuto. Y si no te gusta lo que te contamos, darse de baja es más sencillo todavía.</p>
+<p>Es aquí abajo:</p>
             </div>
             <div id="header-referral" class="col-lg-8 d-none">
                 <p>Así que alguien te ha mandado un enlace de invitación para que te suscribas a nuestra newsletter. Pues nos parece genial.</p>
 
-<p>Eso sí, queremos avisarte de que <b>somos un poco diferentes</b>. Escribimos cada semana (a veces más de una vez). Vamos al grano y no siempre somos políticamente correctos.</p>
+<p>Eso sí, queremos avisarte de que <b>somos un poco diferentes</b>. Decimos lo que tenemos que decir, sin pelos en la lengua, y no somos políticamente correctos. Si eres de los que tienen la piel muy fina o de los que se ofenden con facilidad, mejor no te apuntes. En serio.</p>
 
-<p>Creemos que te gustará, pero si no es así, no hay problema. Puedes darte de baja en cualquier momento, y tan amigos.</p>
+<p>Pero si tú no eres de los de la piel fina, entonces creemos que te gustará. Y si no es así, no hay problema. Puedes darte de baja en cualquier momento, y tan amigos.</p>
             </div>
         </div>
     </div>
@@ -234,6 +234,15 @@
     if ($$.queryParam('r')) {
         $$.hide('header');
         $$.removeClass('header-referral', 'd-none');
+    }
+
+    if ($$.get('utm_source').value == 'Bonilista') {
+        var altHTML = "<p>Ya te han hablado de nuestra newsletter, ¿no?. Muy bien. De todas formas déjanos contarte por qué esta <b>esta no es la típica newsletter de un fabricante</b>.</p>";
+        $$.get('newsletter-header-intro').outerHTML = altHTML;
+
+        var p = document.createElement('p');
+        p.textContent = '¡Hola, suscriptor de la Bonilista!';
+        $$.get('header').prepend(p);
     }
 })();
 </script>

@@ -134,24 +134,24 @@
     <div class="container">
         <div class="row justify-content-center">
             <div id="header" class="col-lg-8">
-                <p>Everyone has a newsletter, and <b>they all try to sell you on it the same way</b>: sign up to <i>&ldquo;stay up to date with the latest news and never miss a thing—blah blah blah&rdquo;</i>.</p>
+                <p id="newsletter-header-intro">We’ve got a newsletter. Yeah, we know—everyone’s got one. But <b>this one’s different</b>. So different that chances are you’ll actually care.</p>
 
-<p>The difference? Chances are you’ll actually like this one.</p>
+<p>Sure, every now and then we talk about our products, but mostly it’s about what’s cooking in the industry: business, tech, marketing, and pretty much anything else we think <b>you</b> will find useful or interesting.</p>
 
-<p>We write every week (sometimes more than once). We get straight to the point—no fluff. And we’re not always politically correct.</p>
+<p>Here’s the deal: <b>you won’t find this stuff anywhere else</b>. It’s not on our website, not on social media. It’s members-only. No archives. Miss a week, and that email’s gone for good.</p>
 
-<p>Sure, we’ll tell you about our products, but we also share other things we find interesting—or that we think <i>you</i> might find interesting. Oh, and sometimes we’ll also throw in exclusive deals and promotions, just for subscribers.</p>
+<p>One more warning: <b>this isn’t for everyone</b>. We say what needs to be said, no sugarcoating, and we’re definitely not politically correct. If you’ve got thin skin or get offended easily, this is not for you. Seriously.</p>
 
-<p>The easiest way to find out? Try it yourself.</p>
+<p>But if you’re not the thin-skinned type, signing up is super easy. It takes less than 30 seconds. And if you don’t like what we write, unsubscribing is even easier.</p>
 
-<p>Signing up is super easy and takes less than a minute. And if you don’t like what you see, unsubscribing is even easier.</p>
+<p>Down here:</p>
             </div>
             <div id="header-referral" class="col-lg-8 d-none">
-                <p>So, someone sent you an invite link to subscribe to our newsletter. Well, that’s awesome.</p>
+                <p>So, someone sent you an invite link to subscribe to our newsletter. Well, we think that’s awesome.</p>
 
-<p>Just a heads-up: <b>we’re a bit different</b>. We write every week (sometimes more than once). We get straight to the point—no fluff. And we’re not always politically correct.</p>
+<p>But fair warning: <b>we’re a little different</b>. We say what needs to be said, no sugarcoating, and we’re definitely not politically correct. If you’ve got thin skin or get offended easily, this is not for you. Seriously.</p>
 
-<p>We think you’ll like it, but if not, no worries. You can unsubscribe anytime. No hard feelings.</p>
+<p>But if you’re not the thin-skinned type, then we think you’ll enjoy it. And if not, no worries—you can unsubscribe anytime, no hard feelings.</p>
             </div>
         </div>
     </div>
@@ -228,6 +228,15 @@
     if ($$.queryParam('r')) {
         $$.hide('header');
         $$.removeClass('header-referral', 'd-none');
+    }
+
+    if ($$.get('utm_source').value == 'Bonilista') {
+        var altHTML = "<p>They’ve already told you about our newsletter, right? Awesome. Either way, let us tell you why <b>this isn’t your typical manufacturer’s newsletter</b>.</p>";
+        $$.get('newsletter-header-intro').outerHTML = altHTML;
+
+        var p = document.createElement('p');
+        p.textContent = '¡Hola, suscriptor de la Bonilista!';
+        $$.get('header').prepend(p);
     }
 })();
 </script>
