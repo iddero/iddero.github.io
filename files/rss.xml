@@ -6,6 +6,36 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>hc3-knx-5.0.bin</title>
+		<link>http://www.iddero.com/files/hc3-knx-5.0.bin</link>
+		<guid isPermaLink="false">e08aa8cb2c273feb042840e90cca1a09a3ea9e9a378eca2758e0ccfce3ec35af</guid>
+		<pubDate>Wed, 10 Sep 2025 16:21:24 GMT</pubDate>
+	</item>
+	<item>
+		<title>iddero-config-5.0-setup.exe</title>
+		<link>http://www.iddero.com/files/iddero-config-5.0-setup.exe</link>
+		<guid isPermaLink="false">b9f81048f5e268cc155ab729d3978a4edb861cffe8b8e8d9408d4dc163e849e7</guid>
+		<pubDate>Wed, 10 Sep 2025 16:21:24 GMT</pubDate>
+	</item>
+	<item>
+		<title>ser3-knx-5.0.bin</title>
+		<link>http://www.iddero.com/files/ser3-knx-5.0.bin</link>
+		<guid isPermaLink="false">bcad5fad08bebe3eb3bfae02872c7a5f63154ba28261ddfc5ba6bc601ef90519</guid>
+		<pubDate>Wed, 10 Sep 2025 16:21:24 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_VoiceControl_May2025_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VoiceControl_May2025_en.pdf</link>
+		<guid isPermaLink="false">4149682edd48277e92f22861091c2738584799432f0ff4831365daa6e4331c60</guid>
+		<pubDate>Tue, 13 May 2025 15:34:35 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_VoiceControl_May2025_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VoiceControl_May2025_es.pdf</link>
+		<guid isPermaLink="false">0fa2c6ea41259557fefcc76a356092da2e70a9f1b9d3c5d6920d080d6fb3fc6c</guid>
+		<pubDate>Tue, 13 May 2025 15:34:35 GMT</pubDate>
+	</item>
+	<item>
 		<title>Dossier_VERSO2_Jan2025_en.pdf</title>
 		<link>http://www.iddero.com/files/Dossier_VERSO2_Jan2025_en.pdf</link>
 		<guid isPermaLink="false">c6d604cbd9408c9915e4332f2c066645ab4189ca64bcccdbd068528762a33edb</guid>
