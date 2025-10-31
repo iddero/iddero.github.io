@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>VoiceControl_Quick_setup_en.pdf</title>
+		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_en.pdf</link>
+		<guid isPermaLink="false">0d6a53ebec1636318de30fdc2991db9381642dabd6ee4304a5790199a79259d3</guid>
+		<pubDate>Thu, 30 Oct 2025 18:14:28 GMT</pubDate>
+	</item>
+	<item>
+		<title>VoiceControl_Quick_setup_es.pdf</title>
+		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_es.pdf</link>
+		<guid isPermaLink="false">6ac13bf30b7490cf3ef45c9e57e23e4af24057230d01f989d818658fd6248e1d</guid>
+		<pubDate>Thu, 30 Oct 2025 18:13:29 GMT</pubDate>
+	</item>
+	<item>
 		<title>hc3-knx-5.0.bin</title>
 		<link>http://www.iddero.com/files/hc3-knx-5.0.bin</link>
 		<guid isPermaLink="false">e08aa8cb2c273feb042840e90cca1a09a3ea9e9a378eca2758e0ccfce3ec35af</guid>
