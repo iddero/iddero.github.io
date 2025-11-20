@@ -35,7 +35,7 @@
     </script>
     -->
 </head>
-<body class="" data-smooth-scroll-offset="40">
+<body class="page-footer-darker" data-smooth-scroll-offset="40">
     <a id="start"></a>
         <div class="nav-container ">
         <div class="bar bar--sm visible-xs">
@@ -157,7 +157,7 @@
 <a href="hc3-knx">HC3-KNX</a> or <a href="hc3l-knx">HC3L-KNX</a> touch panel,
 or on your <a href="ser3-knx">Iddero Home Server 3</a>.</p>
 <p>(Coming soon to the VERSO range.)</p>
-<p><a href="../contact">Contact us</a> for more information.</p>
+<p><a class="inner-link" href="#contact">Contact us</a> for more information.</p>
             </div>
         </div>
     </div>
@@ -237,6 +237,94 @@ without actual access to the target device. Ultra-fast programming over IP.</p>
     </div> <!-- end container -->
 </section>
 
+
+
+<a id="contact"></a>
+<section class="bg--dark space--sm">
+    <div class="container">
+        <h2 id="contact-form-header" class="text-center">Request more information</h2>
+        <div class="row justify-content-center">
+            <div class="col col-lg-9">
+                <div id="res_ok" class="form-result text-center d-none">
+                    <p>Thank you! Form submitted successfully. We’ll get back to you shortly.</p>
+                </div>
+                <div id="res_err" class="form-result text-center d-none">
+                    <p>Oops! Something went wrong. Your request could not be processed. Please try again later...</p>
+                </div>
+
+                <form class="row" id="contact-form" rel="nofollow" method="post">
+                    <input type="hidden" name="lang" value="en">
+                    <input type="hidden" name="referer" value="https://www.iddero.com/en/products/voicecontrol#contact">
+                    <input type="hidden" name="page" value="voice-control">
+
+                    <div class="col-md-6 col-12">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <label for="company" class="form-label">Company</label>
+                        <input type="text" name="company" id="company" required>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" id="email" placeholder="name&#64;domain.com" required>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <label for="country" class="form-label">Country</label>
+                        <div class="input-select">
+                            <select name="country" id="country" required>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="qtype" class="form-label">How can we help you?</label>
+                        <div class="input-select">
+                            <select name="qtype" id="qtype">
+                                <option value="sales" selected="">I have a sales/commercial question</option>
+                                <option value="tech">I have a technical question</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="qtext" class="form-label">Please describe your question</label>
+                        <textarea name="qtext" id="qtext" rows="4" placeholder="Your question here" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-checkbox-container">
+                            <div class="input-checkbox">
+                                <input type="checkbox" id="consent" name="consent" value="true" required>
+                                <label for="consent"></label>
+                            </div>
+                            <label for="consent" class="form-label">I have read and accept the <a href="/en/privacy">Privacy policy</a> and the <a href="/en/legal">Terms of use</a>.</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="small form-note">(*) All fields are mandatory</p>
+                    </div>
+                    <div class="col-md-5 col-lg-4 col-6">
+                        <button id="submit" type="submit" class="btn btn--primary type--uppercase">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/js/countries_en-9e612bf8.js"></script>
+
+<script>
+(function () {
+    var res = $$.queryParam('res');
+    if (res) {
+        $$.hide('contact-form');
+        $$.hide('contact-form-header');
+        $$.removeClass((res == 'ok') ? 'res_ok' : 'res_err', 'd-none');
+    } else {
+        // https://stackoverflow.com/a/66030492/450398
+        $$.get('contact-form').setAttribute('action', 'https://forms.iddero.com/contact');
+    }
+})();
+</script>
 
 
         <div class="newsletter-flyout notification pos-top pos-right col-md-4 col-lg-3" data-animation="from-right" data-autoshow="1000" data-cookie="newsletter-dismissed">
