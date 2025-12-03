@@ -255,71 +255,71 @@ hacer el curso <b>KNX Avanzado</b> o el de <b>Especialista en Climatización</b>
         <h2 id="contact-form-header" class="text-center">Solicita más información</h2>
         <div class="row justify-content-center">
             <div class="col col-lg-9">
-                <div id="res_ok" class="form-result text-center d-none">
-                    <p>¡Gracias! Formulario enviado con éxito. En breve nos pondremos en contacto contigo.</p>
-                </div>
-                <div id="res_err" class="form-result text-center d-none">
-                    <p>¡Oops! Algo ha ido mal. Tu petición no ha podido ser registrada. Por favor, prueba de nuevo más tarde.</p>
-                </div>
+                
 
-                <form class="row" id="contact-form" rel="nofollow" method="post">
-                    <input type="hidden" name="lang" value="es">
-                    <input type="hidden" name="referer" value="https://www.iddero.com/es/training#contact">
-                    <input type="hidden" name="qtype" value="training">
+<div id="res_ok" class="form-result text-center d-none">
+    <p>¡Gracias! Formulario enviado con éxito. En breve nos pondremos en contacto contigo.</p>
+</div>
+<div id="res_err" class="form-result text-center d-none">
+    <p>¡Oops! Algo ha ido mal. Tu petición no ha podido ser registrada. Por favor, prueba de nuevo más tarde.</p>
+</div>
 
-                    <div class="col-md-6 col-12">
-                        <label for="name" class="form-label">Nombre</label>
-                        <input type="text" name="name" id="name" required>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <label for="company" class="form-label">Empresa</label>
-                        <input type="text" name="company" id="company" required>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" name="email" id="email" placeholder="nombre&#64;dominio.com" required>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <label for="country" class="form-label">País</label>
-                        <div class="input-select">
-                            <select name="country" id="country" required>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <label for="course" class="form-label">¿En qué curso estás interesado?</label>
-                        <div class="input-select">
-                            <select name="course" id="course">
-                                <option value="partner" selected="">KNX Partner</option>
-                                <option value="avanzado">KNX Advanced</option>
-                                <option value="clima">Especialista en Climatización KNX</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <label for="qtext" class="form-label">Comentarios</label>
-                        <textarea name="qtext" id="qtext" rows="4" placeholder="Añade aquí cualquier comentario adicional"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <div class="input-checkbox-container">
-                            <div class="input-checkbox">
-                                <input type="checkbox" id="consent" name="consent" value="true" required>
-                                <label for="consent"></label>
-                            </div>
-                            <label for="consent" class="form-label">He leído y acepto la <a href="/es/privacy">Política de privacidad</a> y los <a href="/es/legal">Términos de uso</a>.</label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <p class="small form-note">(*) Todos los campos son obligatorios</p>
-                    </div>
-                    <div class="col-md-5 col-lg-4 col-6">
-                        <button id="submit" type="submit" class="btn btn--primary type--uppercase">Enviar</button>
-                    </div>
-                </form>
-            </div>
+<form class="row" id="contact-form" rel="nofollow" method="post">
+    <input type="hidden" name="lang" value="es">
+    <input type="hidden" name="referer" value="https://www.iddero.com/es/training#contact">
+
+    <div class="col-md-6 col-12">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" name="name" id="name" required>
+        <input class="input-extra" type="text" name="extra" id="extra"
+            aria-hidden="true" tabindex="-1" autocomplete="off">
+    </div>
+    <div class="col-md-6 col-12">
+        <label for="company" class="form-label">Empresa</label>
+        <input type="text" name="company" id="company" required>
+    </div>
+    <div class="col-md-6 col-12">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="nombre&#64;dominio.com" required>
+    </div>
+    <div class="col-md-6 col-12">
+        <label for="country" class="form-label">País</label>
+        <div class="input-select">
+            <select name="country" id="country" required>
+            </select>
         </div>
     </div>
-</section>
+        <input type="hidden" name="qtype" value="training">
+        <div class="col-12">
+            <label for="course" class="form-label">¿En qué curso estás interesado?</label>
+            <div class="input-select">
+                <select name="course" id="course">
+                    <option value="partner" selected="">KNX Partner</option>
+                    <option value="avanzado">KNX Advanced</option>
+                    <option value="clima">Especialista en Climatización KNX</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-12">
+            <label for="qtext" class="form-label">Comentarios</label>
+            <textarea name="qtext" id="qtext" rows="4" placeholder="Añade aquí cualquier comentario adicional"></textarea>
+        </div>
+    <div class="col-12">
+        <div class="input-checkbox-container">
+            <div class="input-checkbox">
+                <input type="checkbox" id="consent" name="consent" value="true" required>
+                <label for="consent"></label>
+            </div>
+            <label for="consent" class="form-label">He leído y acepto la <a href="/es/privacy">Política de privacidad</a> y los <a href="/es/legal">Términos de uso</a>.</label>
+        </div>
+    </div>
+    <div class="col-12">
+        <p class="small form-note">(*) Todos los campos son obligatorios</p>
+    </div>
+    <div class="col-md-5 col-lg-4 col-6">
+        <button type="submit" class="btn btn--primary type--uppercase">Enviar</button>
+    </div>
+</form>
 
 <script src="/js/countries_es-5f4a084e.js"></script>
 
@@ -328,15 +328,26 @@ hacer el curso <b>KNX Avanzado</b> o el de <b>Especialista en Climatización</b>
     var res = $$.queryParam('res');
     if (res) {
         $$.hide('contact-form');
-        $$.hide('contact-form-header');
+        $$.get('contact-form-header') && $$.hide('contact-form-header');
         $$.removeClass((res == 'ok') ? 'res_ok' : 'res_err', 'd-none');
     } else {
         // https://stackoverflow.com/a/66030492/450398
-        $$.get('contact-form').setAttribute('action', 'https://forms.iddero.com/contact');
+        var f = $$.get('contact-form');
+        f.setAttribute('action', 'https://forms.iddero.com/contact');
+        // 2025, the above is not enough anymore
+        f.addEventListener('submit', function(e) {
+            if ($$.get('extra').value) {
+                e.preventDefault();
+                return;
+            }
+        });
     }
 })();
 </script>
-
+            </div>
+        </div>
+    </div>
+</section>
 
 
         <div class="newsletter-flyout notification pos-top pos-right col-md-4 col-lg-3" data-animation="from-right" data-autoshow="1000" data-cookie="newsletter-dismissed">
