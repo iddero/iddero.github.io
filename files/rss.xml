@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>VERSO_Manual_3.0_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Manual_3.0_en.pdf</link>
+		<guid isPermaLink="false">370011f2ef2e0b747e55ce0003a976d920c133ad48f3a03f5c94812886bef0bb</guid>
+		<pubDate>Fri, 19 Dec 2025 12:30:54 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Manual_3.0_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Manual_3.0_es.pdf</link>
+		<guid isPermaLink="false">9d515918c61603e0e252471472d6e93e12d7af1074c7e58ce7044574959d7d17</guid>
+		<pubDate>Fri, 19 Dec 2025 12:30:54 GMT</pubDate>
+	</item>
+	<item>
 		<title>VoiceControl_Quick_setup_en.pdf</title>
 		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_en.pdf</link>
 		<guid isPermaLink="false">0d6a53ebec1636318de30fdc2991db93b7c7216ea2c12713ab860a2e5641132c</guid>
