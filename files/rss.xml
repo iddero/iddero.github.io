@@ -6,6 +6,18 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>VoiceControl_Quick_setup_en.pdf</title>
+		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_en.pdf</link>
+		<guid isPermaLink="false">0d6a53ebec1636318de30fdc2991db93e85978294b2acc023639b01004a91854</guid>
+		<pubDate>Mon, 20 Apr 2026 15:32:59 GMT</pubDate>
+	</item>
+	<item>
+		<title>VoiceControl_Quick_setup_es.pdf</title>
+		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_es.pdf</link>
+		<guid isPermaLink="false">6ac13bf30b7490cf3ef45c9e57e23e4ac29290e2b9bf625be0c3ecb4b06580a4</guid>
+		<pubDate>Mon, 20 Apr 2026 15:32:59 GMT</pubDate>
+	</item>
+	<item>
 		<title>VoiceControl_Activation_en.pdf</title>
 		<link>http://www.iddero.com/files/VoiceControl_Activation_en.pdf</link>
 		<guid isPermaLink="false">cd52cb7740931d5d4332a404df02337a22f08a72e8effdc4e459c7b68f31e604</guid>
@@ -52,18 +64,6 @@
 		<link>http://www.iddero.com/files/VERSO_Manual_3.0_es.pdf</link>
 		<guid isPermaLink="false">9d515918c61603e0e252471472d6e93e12d7af1074c7e58ce7044574959d7d17</guid>
 		<pubDate>Fri, 19 Dec 2025 12:30:54 GMT</pubDate>
-	</item>
-	<item>
-		<title>VoiceControl_Quick_setup_en.pdf</title>
-		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_en.pdf</link>
-		<guid isPermaLink="false">0d6a53ebec1636318de30fdc2991db93b7c7216ea2c12713ab860a2e5641132c</guid>
-		<pubDate>Thu, 18 Dec 2025 10:54:10 GMT</pubDate>
-	</item>
-	<item>
-		<title>VoiceControl_Quick_setup_es.pdf</title>
-		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_es.pdf</link>
-		<guid isPermaLink="false">6ac13bf30b7490cf3ef45c9e57e23e4a70dfd9f707d3a1848c0a41af5c3c1ebd</guid>
-		<pubDate>Thu, 18 Dec 2025 10:54:10 GMT</pubDate>
 	</item>
 	<item>
 		<title>rc1-verso_2-3.0.bin</title>
