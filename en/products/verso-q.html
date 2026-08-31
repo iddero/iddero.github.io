@@ -199,7 +199,9 @@ Lights, blinds, HVAC... and then some.--></h3>
         <label for="name" class="form-label">Name</label>
         <input type="text" name="name" id="name" required>
         <input class="input-extra" type="text" name="extra" id="extra"
-            aria-hidden="true" tabindex="-1" autocomplete="off">
+            aria-hidden="true" tabindex="-1" autocomplete="one-time-code"
+            data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other"
+            data-protonpass-ignore>
     </div>
     <div class="col-md-6 col-12">
         <label for="company" class="form-label">Company</label>
@@ -260,10 +262,22 @@ Lights, blinds, HVAC... and then some.--></h3>
         var f = $$.get('contact-form');
         f.setAttribute('action', 'https://forms.iddero.com/contact');
         // 2025, the above is not enough anymore
+        var human = false;
+        function canHazSubmit(e) { if (e.isTrusted !== false) human = true; }
+        f.addEventListener('keydown', canHazSubmit);
+        f.addEventListener('pointerdown', canHazSubmit);
+        f.addEventListener('touchstart', canHazSubmit);
+
         f.addEventListener('submit', function(e) {
             if ($$.get('extra').value) {
-                e.preventDefault();
-                return;
+                if (human) {
+                    // Chrome autofill may have filled the honeypot; clear it so it
+                    // reaches the server empty for legitimate users
+                    $$.val('extra', '');
+                } else {
+                    e.preventDefault();
+                    $$.removeClass('res_err', 'd-none');
+                }
             }
         });
     }
