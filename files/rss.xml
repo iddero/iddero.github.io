@@ -6,6 +6,24 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Iddero_VERSO_Q_1.0.knxprod</title>
+		<link>http://www.iddero.com/files/Iddero_VERSO_Q_1.0.knxprod</link>
+		<guid isPermaLink="false">c3467366824043bf81235d97223044fd6061ecf7a4ea2999d4015ca4086641bc</guid>
+		<pubDate>Wed, 23 Sep 2026 14:08:13 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Q_Manual_1.0_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Q_Manual_1.0_en.pdf</link>
+		<guid isPermaLink="false">ddc0ccf71ee6c5327fe868298fbdc6a243ff453f9edd05524a72fa8fc264631c</guid>
+		<pubDate>Wed, 23 Sep 2026 14:05:21 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Q_Manual_1.0_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Q_Manual_1.0_es.pdf</link>
+		<guid isPermaLink="false">b7694f8aa76740e431020b3c7fcefeff4e70d9494fd1729b2eff3264fa22bafa</guid>
+		<pubDate>Wed, 23 Sep 2026 14:05:21 GMT</pubDate>
+	</item>
+	<item>
 		<title>VoiceControl_Quick_setup_en.pdf</title>
 		<link>http://www.iddero.com/files/VoiceControl_Quick_setup_en.pdf</link>
 		<guid isPermaLink="false">0d6a53ebec1636318de30fdc2991db93e85978294b2acc023639b01004a91854</guid>
