@@ -6,16 +6,28 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>Flyer_VERSO_Q_en.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VERSO_Q_en.pdf</link>
+		<guid isPermaLink="false">5bfae6cf2c70e3139d670eb39c54496fce32c75216f2012d3f2700aa9673bdc7</guid>
+		<pubDate>Fri, 16 Oct 2026 13:01:53 GMT</pubDate>
+	</item>
+	<item>
+		<title>Flyer_VERSO_Q_es.pdf</title>
+		<link>http://www.iddero.com/files/Flyer_VERSO_Q_es.pdf</link>
+		<guid isPermaLink="false">8d1baefa2252136cb3882e9ad3082d5181533ce6888fb2f04caf5ad5f76ad3d7</guid>
+		<pubDate>Fri, 16 Oct 2026 13:01:53 GMT</pubDate>
+	</item>
+	<item>
 		<title>VERSO_Q_Datasheet_en.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_Q_Datasheet_en.pdf</link>
 		<guid isPermaLink="false">368d3eaae114383cb7e90fcac2b0f3ccdc5e6932c543eeedd84736247e63464e</guid>
-		<pubDate>Fri, 16 Oct 2026 11:09:11 GMT</pubDate>
+		<pubDate>Fri, 16 Oct 2026 11:17:17 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_Q_Datasheet_es.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_Q_Datasheet_es.pdf</link>
 		<guid isPermaLink="false">c5fe343821100aa7974d48ecb2827e3b10ae8d640485241dd56fe96768920eef</guid>
-		<pubDate>Fri, 16 Oct 2026 11:09:11 GMT</pubDate>
+		<pubDate>Fri, 16 Oct 2026 11:17:17 GMT</pubDate>
 	</item>
 	<item>
 		<title>Iddero_VERSO_Q_1.0.knxprod</title>
@@ -64,18 +76,6 @@
 		<link>http://www.iddero.com/files/rc1-verso_ip-1.5.bin</link>
 		<guid isPermaLink="false">f01b1d9bdff4f7b5a938ea32ffab39023211f0848f7b8c1d297202008bb3a428</guid>
 		<pubDate>Mon, 20 Apr 2026 10:34:52 GMT</pubDate>
-	</item>
-	<item>
-		<title>Flyer_VERSO_Q_en.pdf</title>
-		<link>http://www.iddero.com/files/Flyer_VERSO_Q_en.pdf</link>
-		<guid isPermaLink="false">5bfae6cf2c70e3139d670eb39c54496fbb2034bad079c065b075a8fdd2fe2f2b</guid>
-		<pubDate>Fri, 06 Mar 2026 10:56:32 GMT</pubDate>
-	</item>
-	<item>
-		<title>Flyer_VERSO_Q_es.pdf</title>
-		<link>http://www.iddero.com/files/Flyer_VERSO_Q_es.pdf</link>
-		<guid isPermaLink="false">8d1baefa2252136cb3882e9ad3082d51fc12ac825f50a37ffa66e68a3d50197d</guid>
-		<pubDate>Fri, 06 Mar 2026 10:56:32 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_Manual_3.0_en.pdf</title>
