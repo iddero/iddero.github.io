@@ -6,22 +6,34 @@
 	<description>Iddero product downloads</description>
 	<atom:link href="http://www.iddero.com/files/rss.xml" rel="self" type="application/rss+xml" />
 	<item>
+		<title>VERSO_Q_Datasheet_en.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Q_Datasheet_en.pdf</link>
+		<guid isPermaLink="false">368d3eaae114383cb7e90fcac2b0f3ccdc5e6932c543eeedd84736247e63464e</guid>
+		<pubDate>Fri, 16 Oct 2026 11:09:11 GMT</pubDate>
+	</item>
+	<item>
+		<title>VERSO_Q_Datasheet_es.pdf</title>
+		<link>http://www.iddero.com/files/VERSO_Q_Datasheet_es.pdf</link>
+		<guid isPermaLink="false">c5fe343821100aa7974d48ecb2827e3b10ae8d640485241dd56fe96768920eef</guid>
+		<pubDate>Fri, 16 Oct 2026 11:09:11 GMT</pubDate>
+	</item>
+	<item>
 		<title>Iddero_VERSO_Q_1.0.knxprod</title>
 		<link>http://www.iddero.com/files/Iddero_VERSO_Q_1.0.knxprod</link>
 		<guid isPermaLink="false">c3467366824043bf81235d97223044fd6061ecf7a4ea2999d4015ca4086641bc</guid>
-		<pubDate>Wed, 23 Sep 2026 14:08:13 GMT</pubDate>
+		<pubDate>Wed, 23 Sep 2026 14:23:07 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_Q_Manual_1.0_en.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_Q_Manual_1.0_en.pdf</link>
 		<guid isPermaLink="false">ddc0ccf71ee6c5327fe868298fbdc6a243ff453f9edd05524a72fa8fc264631c</guid>
-		<pubDate>Wed, 23 Sep 2026 14:05:21 GMT</pubDate>
+		<pubDate>Wed, 23 Sep 2026 14:23:07 GMT</pubDate>
 	</item>
 	<item>
 		<title>VERSO_Q_Manual_1.0_es.pdf</title>
 		<link>http://www.iddero.com/files/VERSO_Q_Manual_1.0_es.pdf</link>
 		<guid isPermaLink="false">b7694f8aa76740e431020b3c7fcefeff4e70d9494fd1729b2eff3264fa22bafa</guid>
-		<pubDate>Wed, 23 Sep 2026 14:05:21 GMT</pubDate>
+		<pubDate>Wed, 23 Sep 2026 14:23:07 GMT</pubDate>
 	</item>
 	<item>
 		<title>VoiceControl_Quick_setup_en.pdf</title>
@@ -52,12 +64,6 @@
 		<link>http://www.iddero.com/files/rc1-verso_ip-1.5.bin</link>
 		<guid isPermaLink="false">f01b1d9bdff4f7b5a938ea32ffab39023211f0848f7b8c1d297202008bb3a428</guid>
 		<pubDate>Mon, 20 Apr 2026 10:34:52 GMT</pubDate>
-	</item>
-	<item>
-		<title>VERSO_Q_Datasheet_pre_en.pdf</title>
-		<link>http://www.iddero.com/files/VERSO_Q_Datasheet_pre_en.pdf</link>
-		<guid isPermaLink="false">213eadeb9d15e4f8928032a9111d3603ba40f4e24938e41dbc4587c873cb394e</guid>
-		<pubDate>Mon, 09 Mar 2026 10:05:49 GMT</pubDate>
 	</item>
 	<item>
 		<title>Flyer_VERSO_Q_en.pdf</title>
